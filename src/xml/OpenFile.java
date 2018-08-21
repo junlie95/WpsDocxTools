@@ -23,7 +23,7 @@ public class OpenFile {
 //            BufferedReader reader;
 //
 //            //fileName = jfc.getSelectedFile().getAbsolutePath();//返回选中文件的绝对路径
-//            LeftBottomRightJPanel.openFileName = fileName;
+//            LeftBottomJPanel.openFileName = fileName;
 //            try {
 //                reader = new BufferedReader(new FileReader(fileName));
 //                Docx.jTextArea.setText("");
@@ -31,12 +31,12 @@ public class OpenFile {
 //                    Docx.jTextArea.append(line + "\n");
 //                }
 //                tree = (JTree) new XMLTree(fileName);//xml树目录
-//                LeftBottomRightJPanel.root.removeAllChildren();//将树目录展示在JFrame窗体上
+//                LeftBottomJPanel.root.removeAllChildren();//将树目录展示在JFrame窗体上
 //                if (XMLTree.docType != null)
-//                    LeftBottomRightJPanel.treeModel.insertNodeInto(XMLTree.docTypeNode, LeftBottomRightJPanel.root, LeftBottomRightJPanel.root.getChildCount());
-//                LeftBottomRightJPanel.treeModel.insertNodeInto(XMLTree.rootTreeNode, LeftBottomRightJPanel.root, LeftBottomRightJPanel.root.getChildCount());
-//                LeftBottomRightJPanel.treeModel.reload();
-//                expandAll(LeftBottomRightJPanel.jtree_3, new TreePath(LeftBottomRightJPanel.jtree_3.getModel().getRoot()));//调用expandAll函数
+//                    LeftBottomJPanel.treeModel.insertNodeInto(XMLTree.docTypeNode, LeftBottomJPanel.root, LeftBottomJPanel.root.getChildCount());
+//                LeftBottomJPanel.treeModel.insertNodeInto(XMLTree.rootTreeNode, LeftBottomJPanel.root, LeftBottomJPanel.root.getChildCount());
+//                LeftBottomJPanel.treeModel.reload();
+//                expandAll(LeftBottomJPanel.jtree_3, new TreePath(LeftBottomJPanel.jtree_3.getModel().getRoot()));//调用expandAll函数
 //                reader.close();
 //            } catch (Exception ex) {
 //

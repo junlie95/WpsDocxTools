@@ -1,8 +1,7 @@
 package UiView;
 
-import unzip.LeftBottomRightJPanel;
-import unzip.UnZipFile;
 import unzip.LeftBottomJPanel;
+import unzip.UnZipFile;
 import xml.DocxFileFilter;
 import xml.XMLTree;
 import xml.XmlFileFilter;
@@ -19,7 +18,7 @@ import java.net.URL;
 import java.util.Date;
 
 import static javax.swing.JOptionPane.INFORMATION_MESSAGE;
-import static unzip.LeftBottomRightJPanel.jtree_3;
+import static unzip.LeftBottomJPanel.jtree_3;
 import static xml.OpenFile.*;
 
 public class Docx extends JFrame {
@@ -133,12 +132,12 @@ public class Docx extends JFrame {
         LeftPane leftJPane = new LeftPane();
 
         //文本区域
-        jTextArea = new JTextArea(30,50);
+        jTextArea = new JTextArea(30, 50);
         JScrollPane jScrollPane = new JScrollPane(jTextArea);//为文本区域jTextArea设置滚动条jScrollPane
         jScrollPane.setRowHeaderView(new LineNumberHeaderView());//为文本区域设置行号
 
         /**
-            对Docx窗体左右分割
+         对Docx窗体左右分割
          */
         JSplitPane jSplitPane = new JSplitPane(JSplitPane.HORIZONTAL_SPLIT, leftJPane, jScrollPane /*new JScrollPane(jTextArea)*/);
         this.add(jSplitPane, BorderLayout.CENTER);
@@ -156,7 +155,7 @@ public class Docx extends JFrame {
         });
 
         /**
-            对leftJPane面板上下分割
+         对leftJPane面板上下分割
          */
         leftTopJPanel = new LeftTopJPanel();
         JScrollPane jScrollPane1_3 = new JScrollPane(leftTopJPanel);
@@ -192,7 +191,7 @@ public class Docx extends JFrame {
                    文件过滤器
                 */
                 jFileChooser.setFileFilter(new DocxFileFilter());//优先选择docx文件
-                //jFileChooser.setFileFilter(new XmlFileFilter());//选择XML文件
+                jFileChooser.setFileFilter(new XmlFileFilter());//选择XML文件
 
                 if (file_2 == null) {
                     jFileChooser.setSelectedFile(file_2);
@@ -334,7 +333,7 @@ public class Docx extends JFrame {
     void XmlOpenFile() {
         BufferedReader reader;
         fileName = jFileChooser.getSelectedFile().getAbsolutePath();//返回选中文件的绝对路径
-        LeftBottomRightJPanel.openFileName = fileName;
+        LeftBottomJPanel.openFileName = fileName;
         try {
             reader = new BufferedReader(new FileReader(fileName));
             Docx.jTextArea.setText("");
@@ -343,11 +342,11 @@ public class Docx extends JFrame {
                 Docx.jTextArea.append(line + "\n");
             }
             tree = (JTree) new XMLTree(fileName);//xml树目录
-            LeftBottomRightJPanel.root.removeAllChildren();//将树目录展示在窗体上
+            LeftBottomJPanel.root.removeAllChildren();//将树目录展示在窗体上
             if (XMLTree.docType != null)
-                LeftBottomRightJPanel.treeModel.insertNodeInto(XMLTree.docTypeNode, LeftBottomRightJPanel.root, LeftBottomRightJPanel.root.getChildCount());
-            LeftBottomRightJPanel.treeModel.insertNodeInto(XMLTree.rootTreeNode, LeftBottomRightJPanel.root, LeftBottomRightJPanel.root.getChildCount());
-            LeftBottomRightJPanel.treeModel.reload();
+                LeftBottomJPanel.treeModel.insertNodeInto(XMLTree.docTypeNode, LeftBottomJPanel.root, LeftBottomJPanel.root.getChildCount());
+            LeftBottomJPanel.treeModel.insertNodeInto(XMLTree.rootTreeNode, LeftBottomJPanel.root, LeftBottomJPanel.root.getChildCount());
+            LeftBottomJPanel.treeModel.reload();
             expandAll(jtree_3, new TreePath(jtree_3.getModel().getRoot()));//调用expandAll函数
             reader.close();
         } catch (Exception ex) {
@@ -396,7 +395,7 @@ public class Docx extends JFrame {
         return fujiedian;
     }
 
-    public void XmlTreeClick(){
+    public void XmlTreeClick() {
         jTree.addMouseListener(new MouseAdapter() {
             @Override
             public void mouseReleased(MouseEvent e) {
@@ -406,13 +405,14 @@ public class Docx extends JFrame {
                         return;
                     } else {
                         DefaultMutableTreeNode node = (DefaultMutableTreeNode) path.getLastPathComponent();
-                        //String file = ((File) node.getUserObject()).getAbsolutePath().toString();
-                        String file = (node.getUserObject().toString());//获取文件路径名
+                        String file = ((File) node.getUserObject()).getAbsolutePath().toString();
+                        //String file = (node.getUserObject().toString());//获取文件路径名
                         DefaultMutableTreeNode selectedNode = (DefaultMutableTreeNode) path.getLastPathComponent();
                         if (selectedNode.isLeaf()) {
-                            XmlOpenFile();
+                             XmlOpenFile();
                             //openGetFile(file);
                             //openFileText();
+
                         }
                     }
                 }
@@ -515,7 +515,7 @@ public class Docx extends JFrame {
 
 
                         jTextArea.setText("");
-                        //jTextArea.setLineWrap(true);//换行
+                        jTextArea.setLineWrap(true);//换行
                         int i = 0;//保存文件行数
 
                         while ((str = bfr.readLine()) != null) {//每次读取一行，直到文件结束

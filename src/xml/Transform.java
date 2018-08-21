@@ -7,7 +7,7 @@ import javax.swing.tree.*;
 import UiView.Docx;
 import org.jdom.*;
 import org.jdom.output.*;
-import unzip.LeftBottomRightJPanel;
+import unzip.LeftBottomJPanel;
 
 public class Transform {
     Element nElement;
@@ -20,30 +20,30 @@ public class Transform {
     DefaultMutableTreeNode flag;
 
     public void toXML() {
-        t = (DefaultMutableTreeNode) LeftBottomRightJPanel.treeModel.getChild(LeftBottomRightJPanel.root, 0);
-        TreePath treepath = LeftBottomRightJPanel.jtree_3.getSelectionPath();
+        t = (DefaultMutableTreeNode) LeftBottomJPanel.treeModel.getChild(LeftBottomJPanel.root, 0);
+        TreePath treepath = LeftBottomJPanel.jtree_3.getSelectionPath();
         DefaultMutableTreeNode node = (DefaultMutableTreeNode) (treepath.getLastPathComponent());
-        if (LeftBottomRightJPanel.treeModel.getChildCount(LeftBottomRightJPanel.root) != 1) {
-            if (node == LeftBottomRightJPanel.root) {
-                t = (DefaultMutableTreeNode) LeftBottomRightJPanel.treeModel.getChild(LeftBottomRightJPanel.root, 0);
+        if (LeftBottomJPanel.treeModel.getChildCount(LeftBottomJPanel.root) != 1) {
+            if (node == LeftBottomJPanel.root) {
+                t = (DefaultMutableTreeNode) LeftBottomJPanel.treeModel.getChild(LeftBottomJPanel.root, 0);
                 rootElement = new Element(t.getUserObject().toString());
             } else {
                 DefaultMutableTreeNode child;
-                for (i = 0; i < LeftBottomRightJPanel.treeModel.getChildCount(LeftBottomRightJPanel.root); i++) {
-                    child = (DefaultMutableTreeNode) LeftBottomRightJPanel.treeModel.getChild(LeftBottomRightJPanel.root, i);
+                for (i = 0; i < LeftBottomJPanel.treeModel.getChildCount(LeftBottomJPanel.root); i++) {
+                    child = (DefaultMutableTreeNode) LeftBottomJPanel.treeModel.getChild(LeftBottomJPanel.root, i);
                     isChild(node);
                     if (node == child || flag == child) {
                         t = child;
                         rootElement = new Element(t.getUserObject().toString());
                         break;
                     }
-                    if (i >= LeftBottomRightJPanel.treeModel.getChildCount(LeftBottomRightJPanel.root))
-                        t = (DefaultMutableTreeNode) LeftBottomRightJPanel.treeModel.getChild(LeftBottomRightJPanel.root, 0);
+                    if (i >= LeftBottomJPanel.treeModel.getChildCount(LeftBottomJPanel.root))
+                        t = (DefaultMutableTreeNode) LeftBottomJPanel.treeModel.getChild(LeftBottomJPanel.root, 0);
                     rootElement = new Element(t.getUserObject().toString());
                 }
             }
         } else {
-            t = (DefaultMutableTreeNode) LeftBottomRightJPanel.treeModel.getChild(LeftBottomRightJPanel.root, 0);
+            t = (DefaultMutableTreeNode) LeftBottomJPanel.treeModel.getChild(LeftBottomJPanel.root, 0);
             rootElement = new Element(t.getUserObject().toString());
         }
         doc = new Document(rootElement);
@@ -71,43 +71,43 @@ public class Transform {
     }
 
     public void isChild(DefaultMutableTreeNode node) {
-        if (node != LeftBottomRightJPanel.root && (DefaultMutableTreeNode) node.getParent() != LeftBottomRightJPanel.root) {
+        if (node != LeftBottomJPanel.root && (DefaultMutableTreeNode) node.getParent() != LeftBottomJPanel.root) {
             DefaultMutableTreeNode father = (DefaultMutableTreeNode) node.getParent();
-            for (j = 0; j < LeftBottomRightJPanel.treeModel.getChildCount(LeftBottomRightJPanel.root); j++) {
-                DefaultMutableTreeNode n = (DefaultMutableTreeNode) LeftBottomRightJPanel.treeModel.getChild(LeftBottomRightJPanel.root, j);
+            for (j = 0; j < LeftBottomJPanel.treeModel.getChildCount(LeftBottomJPanel.root); j++) {
+                DefaultMutableTreeNode n = (DefaultMutableTreeNode) LeftBottomJPanel.treeModel.getChild(LeftBottomJPanel.root, j);
                 if (father == n) {
                     flag = father;
                     break;
                 }
             }
-            if (j >= LeftBottomRightJPanel.treeModel.getChildCount(LeftBottomRightJPanel.root))
+            if (j >= LeftBottomJPanel.treeModel.getChildCount(LeftBottomJPanel.root))
                 isChild(father);
         }
     }
 
     public void addElement(Element ele, DefaultMutableTreeNode node) {
-        for (index = 0; index < LeftBottomRightJPanel.treeModel.getChildCount(node); index++) {
-            DefaultMutableTreeNode n = (DefaultMutableTreeNode) LeftBottomRightJPanel.treeModel.getChild(node, index);
+        for (index = 0; index < LeftBottomJPanel.treeModel.getChildCount(node); index++) {
+            DefaultMutableTreeNode n = (DefaultMutableTreeNode) LeftBottomJPanel.treeModel.getChild(node, index);
             if (n.getUserObject().toString().equals("NODE_ATTRIBUTE")) {
                 for (int i = 0; i < n.getChildCount(); i++) {
-                    DefaultMutableTreeNode attnode = (DefaultMutableTreeNode) LeftBottomRightJPanel.treeModel.getChild(n, i);
+                    DefaultMutableTreeNode attnode = (DefaultMutableTreeNode) LeftBottomJPanel.treeModel.getChild(n, i);
                     String s = attnode.toString();
                     String string[] = new String[2];
                     string = getAttrAndValue(s);
                     ele.setAttribute(string[0], string[1]);
                 }
             } else if (n.getUserObject().toString().equals("NODE_CONTENT")) {
-                DefaultMutableTreeNode contentNode = (DefaultMutableTreeNode) LeftBottomRightJPanel.treeModel.getChild(n, 0);
+                DefaultMutableTreeNode contentNode = (DefaultMutableTreeNode) LeftBottomJPanel.treeModel.getChild(n, 0);
                 String s = contentNode.toString();
                 ele.addContent(s);
             } else {
                 nElement = new Element(n.getUserObject().toString());
                 ele.addContent(nElement);
 
-                if (LeftBottomRightJPanel.treeModel.getChildCount(n) > 0)
+                if (LeftBottomJPanel.treeModel.getChildCount(n) > 0)
                     addElement(nElement, n);
             }
-            index = LeftBottomRightJPanel.treeModel.getIndexOfChild(node, n);
+            index = LeftBottomJPanel.treeModel.getIndexOfChild(node, n);
         }
     }
 
