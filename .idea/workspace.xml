@@ -2,43 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="776424ff-562f-40ca-b14f-08d301195087" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/images/leaf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/open.gif" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$10.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$11.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$12.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$12.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$13.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$13.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$14.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$14.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$15.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$15.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$16.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$16.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$17.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$17.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$18.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$18.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$19.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$19.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$20.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$20.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$21.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$21.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$22.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$22.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$9.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/JSplashWindowEx.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/JSplashWindowEx.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/unzip/LeftBottomJPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/unzip/LeftBottomJPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/unzip/LeftBottomRightJPanel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/xml/MItemListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/xml/MItemListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/xml/MyMouseListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/xml/MyMouseListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/xml/Transform.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/xml/Transform.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/UiView/Docx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UiView/Docx.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/unzip/LeftBottomJPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unzip/LeftBottomJPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/unzip/LeftBottomRightJPanel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/xml/MItemListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/xml/MItemListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/xml/MyMouseListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/xml/MyMouseListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/xml/OpenFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/xml/OpenFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/xml/Transform.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/xml/Transform.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,88 +27,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Docx.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Docx.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/UiView/Docx.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-361">
-              <caret line="564" selection-start-line="564" selection-end-line="564" />
+            <state relative-caret-position="518">
+              <caret line="394" column="25" lean-forward="true" selection-start-line="394" selection-start-column="25" selection-end-line="394" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#5368#5557#0" expanded="true" />
-                <element signature="e#5556#5557#0" expanded="true" />
-                <element signature="e#6167#6359#0" expanded="true" />
-                <element signature="e#6358#6359#0" expanded="true" />
-                <element signature="e#6455#6703#0" expanded="true" />
-                <element signature="e#6702#6703#0" expanded="true" />
-                <element signature="e#6741#8386#0" expanded="true" />
-                <element signature="e#8385#8386#0" expanded="true" />
-                <element signature="e#8424#8873#0" expanded="true" />
-                <element signature="e#8872#8873#0" expanded="true" />
-                <element signature="e#8913#9074#0" expanded="true" />
-                <element signature="e#9073#9074#0" expanded="true" />
-                <element signature="e#9112#9271#0" expanded="true" />
-                <element signature="e#9270#9271#0" expanded="true" />
-                <element signature="e#9310#9470#0" expanded="true" />
-                <element signature="e#9469#9470#0" expanded="true" />
-                <element signature="e#9507#9665#0" expanded="true" />
-                <element signature="e#9664#9665#0" expanded="true" />
-                <element signature="e#9704#9868#0" expanded="true" />
-                <element signature="e#9867#9868#0" expanded="true" />
-                <element signature="e#9907#10156#0" expanded="true" />
-                <element signature="e#10155#10156#0" expanded="true" />
-                <element signature="e#10193#10551#0" expanded="true" />
-                <element signature="e#10550#10551#0" expanded="true" />
-                <element signature="e#10591#10948#0" expanded="true" />
-                <element signature="e#10947#10948#0" expanded="true" />
-                <element signature="e#10984#11482#0" expanded="true" />
-                <element signature="e#11481#11482#0" expanded="true" />
-                <element signature="e#11519#12058#0" expanded="true" />
-                <element signature="e#12057#12058#0" expanded="true" />
-                <element signature="e#12097#12327#0" expanded="true" />
-                <element signature="e#12326#12327#0" expanded="true" />
-                <element signature="e#15107#16121#0" expanded="true" />
-                <element signature="e#16120#16121#0" expanded="true" />
-                <element signature="e#23458#23595#0" expanded="true" />
-                <element signature="e#23594#23595#0" expanded="true" />
-                <element signature="e#23677#23815#0" expanded="true" />
-                <element signature="e#23814#23815#0" expanded="true" />
-                <element signature="e#23897#24033#0" expanded="true" />
-                <element signature="e#24032#24033#0" expanded="true" />
-                <element signature="e#24142#24452#0" expanded="true" />
-                <element signature="e#24451#24452#0" expanded="true" />
-                <element signature="e#24535#24884#0" expanded="true" />
-                <element signature="e#24883#24884#0" expanded="true" />
+                <element signature="e#15107#16445#0" expanded="true" />
+                <element signature="e#16444#16445#0" expanded="true" />
+                <element signature="e#23496#23633#0" expanded="true" />
+                <element signature="e#23632#23633#0" expanded="true" />
+                <element signature="e#23715#23853#0" expanded="true" />
+                <element signature="e#23852#23853#0" expanded="true" />
+                <element signature="e#23935#24071#0" expanded="true" />
+                <element signature="e#24070#24071#0" expanded="true" />
+                <element signature="e#24154#24464#0" expanded="true" />
+                <element signature="e#24463#24464#0" expanded="true" />
+                <element signature="e#24547#24896#0" expanded="true" />
+                <element signature="e#24895#24896#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="XMLTree.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/xml/XMLTree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LeftBottomJPanel.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="LeftBottomJPanel.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/unzip/LeftBottomJPanel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="55" column="52" lean-forward="true" selection-start-line="55" selection-start-column="52" selection-end-line="55" selection-end-column="52" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MItemListener.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/xml/MItemListener.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="22" column="64" lean-forward="true" selection-start-line="22" selection-start-column="64" selection-end-line="22" selection-end-column="64" />
+            <state relative-caret-position="330">
+              <caret line="57" column="71" lean-forward="true" selection-start-line="57" selection-start-column="71" selection-end-line="57" selection-end-column="71" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -147,13 +71,17 @@
       <find>XmlFileFilter</find>
       <find>tree</find>
       <find>jTree</find>
-      <find>XmlOpenFile</find>
       <find>jtree_3</find>
       <find>expandAll</find>
+      <find>XmlOpenFile</find>
+      <find>images</find>
     </findStrings>
     <replaceStrings>
       <replace>LeftBottomJPanel</replace>
     </replaceStrings>
+    <dirStrings>
+      <dir>H:\WpsMaxiongfeiEditor\src\images</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -164,9 +92,9 @@
         <option value="$PROJECT_DIR$/src/UiView/LeftPane.java" />
         <option value="$PROJECT_DIR$/src/UiView/LeftTopJPanel.java" />
         <option value="$PROJECT_DIR$/src/unzip/LeftBottomRightJPanel.java" />
-        <option value="$PROJECT_DIR$/src/unzip/LeftBottomJPanel.java" />
         <option value="$PROJECT_DIR$/src/xml/Transform.java" />
         <option value="$PROJECT_DIR$/src/UiView/Docx.java" />
+        <option value="$PROJECT_DIR$/src/unzip/LeftBottomJPanel.java" />
       </list>
     </option>
   </component>
@@ -191,9 +119,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -205,6 +132,12 @@
               <item name="WpsMaxiongfeiEditor" type="b2602c69:ProjectViewProjectNode" />
               <item name="WpsMaxiongfeiEditor" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WpsMaxiongfeiEditor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WpsMaxiongfeiEditor" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="WpsMaxiongfeiEditor" type="b2602c69:ProjectViewProjectNode" />
@@ -228,6 +161,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -239,6 +173,11 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\WpsMaxiongfeiEditor\src\images" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -323,12 +262,15 @@
       <updated>1534850491464</updated>
       <workItem from="1534850492724" duration="569000" />
       <workItem from="1534851079085" duration="2091000" />
-      <workItem from="1534853190443" duration="2610000" />
+      <workItem from="1534853190443" duration="2794000" />
+      <workItem from="1534856040862" duration="24000" />
+      <workItem from="1534901428664" duration="18000" />
+      <workItem from="1534901450659" duration="8066000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5270000" />
+    <option name="totallyTimeSpent" value="13562000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="7" />
@@ -343,25 +285,25 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32872656" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32872656" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2707889" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27985075" />
       <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -373,54 +315,174 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/UiView/Docx.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8976">
+          <caret line="420" column="5" lean-forward="true" selection-start-line="420" selection-start-column="5" selection-end-line="420" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#15107#16445#0" expanded="true" />
+            <element signature="e#16444#16445#0" expanded="true" />
+            <element signature="e#23496#23633#0" expanded="true" />
+            <element signature="e#23632#23633#0" expanded="true" />
+            <element signature="e#23715#23853#0" expanded="true" />
+            <element signature="e#23852#23853#0" expanded="true" />
+            <element signature="e#23935#24071#0" expanded="true" />
+            <element signature="e#24070#24071#0" expanded="true" />
+            <element signature="e#24154#24464#0" expanded="true" />
+            <element signature="e#24463#24464#0" expanded="true" />
+            <element signature="e#24547#24896#0" expanded="true" />
+            <element signature="e#24895#24896#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/xml/XMLTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#584#585#0" expanded="true" />
+            <element signature="e#623#624#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/unzip/LeftBottomJPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1210">
+          <caret line="55" column="52" selection-start-line="55" selection-start-column="52" selection-end-line="55" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/xml/MItemListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="22" column="64" selection-start-line="22" selection-start-column="64" selection-end-line="22" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UiView/Docx.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9152">
+          <caret line="416" column="21" selection-start-line="416" selection-start-column="21" selection-end-line="416" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#15107#16445#0" expanded="true" />
+            <element signature="e#16444#16445#0" expanded="true" />
+            <element signature="e#23496#23633#0" expanded="true" />
+            <element signature="e#23632#23633#0" expanded="true" />
+            <element signature="e#23715#23853#0" expanded="true" />
+            <element signature="e#23852#23853#0" expanded="true" />
+            <element signature="e#23935#24071#0" expanded="true" />
+            <element signature="e#24070#24071#0" expanded="true" />
+            <element signature="e#24154#24464#0" expanded="true" />
+            <element signature="e#24463#24464#0" expanded="true" />
+            <element signature="e#24547#24896#0" expanded="true" />
+            <element signature="e#24895#24896#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/xml/XMLTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/unzip/LeftBottomJPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="946">
+          <caret line="55" column="52" selection-start-line="55" selection-start-column="52" selection-end-line="55" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/xml/MItemListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" column="64" selection-start-line="22" selection-start-column="64" selection-end-line="22" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UiView/Docx.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9152">
+          <caret line="416" column="21" lean-forward="true" selection-start-line="416" selection-start-column="21" selection-end-line="416" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#15107#16445#0" expanded="true" />
+            <element signature="e#16444#16445#0" expanded="true" />
+            <element signature="e#23496#23633#0" expanded="true" />
+            <element signature="e#23632#23633#0" expanded="true" />
+            <element signature="e#23715#23853#0" expanded="true" />
+            <element signature="e#23852#23853#0" expanded="true" />
+            <element signature="e#23935#24071#0" expanded="true" />
+            <element signature="e#24070#24071#0" expanded="true" />
+            <element signature="e#24154#24464#0" expanded="true" />
+            <element signature="e#24463#24464#0" expanded="true" />
+            <element signature="e#24547#24896#0" expanded="true" />
+            <element signature="e#24895#24896#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/xml/XMLTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/unzip/LeftBottomJPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1210">
+          <caret line="55" column="52" lean-forward="true" selection-start-line="55" selection-start-column="52" selection-end-line="55" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/xml/MItemListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="22" column="64" lean-forward="true" selection-start-line="22" selection-start-column="64" selection-end-line="22" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UiView/Docx.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9064">
           <caret line="412" column="43" lean-forward="true" selection-start-line="412" selection-start-column="43" selection-end-line="412" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#5368#5557#0" expanded="true" />
-            <element signature="e#5556#5557#0" expanded="true" />
-            <element signature="e#6167#6359#0" expanded="true" />
-            <element signature="e#6358#6359#0" expanded="true" />
-            <element signature="e#6455#6703#0" expanded="true" />
-            <element signature="e#6702#6703#0" expanded="true" />
-            <element signature="e#6741#8386#0" expanded="true" />
-            <element signature="e#8385#8386#0" expanded="true" />
-            <element signature="e#8424#8873#0" expanded="true" />
-            <element signature="e#8872#8873#0" expanded="true" />
-            <element signature="e#8913#9074#0" expanded="true" />
-            <element signature="e#9073#9074#0" expanded="true" />
-            <element signature="e#9112#9271#0" expanded="true" />
-            <element signature="e#9270#9271#0" expanded="true" />
-            <element signature="e#9310#9470#0" expanded="true" />
-            <element signature="e#9469#9470#0" expanded="true" />
-            <element signature="e#9507#9665#0" expanded="true" />
-            <element signature="e#9664#9665#0" expanded="true" />
-            <element signature="e#9704#9868#0" expanded="true" />
-            <element signature="e#9867#9868#0" expanded="true" />
-            <element signature="e#9907#10156#0" expanded="true" />
-            <element signature="e#10155#10156#0" expanded="true" />
-            <element signature="e#10193#10551#0" expanded="true" />
-            <element signature="e#10550#10551#0" expanded="true" />
-            <element signature="e#10591#10948#0" expanded="true" />
-            <element signature="e#10947#10948#0" expanded="true" />
-            <element signature="e#10984#11482#0" expanded="true" />
-            <element signature="e#11481#11482#0" expanded="true" />
-            <element signature="e#11519#12058#0" expanded="true" />
-            <element signature="e#12057#12058#0" expanded="true" />
-            <element signature="e#12097#12327#0" expanded="true" />
-            <element signature="e#12326#12327#0" expanded="true" />
-            <element signature="e#15107#16121#0" expanded="true" />
-            <element signature="e#16120#16121#0" expanded="true" />
-            <element signature="e#23458#23595#0" expanded="true" />
-            <element signature="e#23594#23595#0" expanded="true" />
-            <element signature="e#23677#23815#0" expanded="true" />
-            <element signature="e#23814#23815#0" expanded="true" />
-            <element signature="e#23897#24033#0" expanded="true" />
-            <element signature="e#24032#24033#0" expanded="true" />
-            <element signature="e#24142#24452#0" expanded="true" />
-            <element signature="e#24451#24452#0" expanded="true" />
-            <element signature="e#24535#24884#0" expanded="true" />
-            <element signature="e#24883#24884#0" expanded="true" />
+            <element signature="e#15107#16445#0" expanded="true" />
+            <element signature="e#16444#16445#0" expanded="true" />
+            <element signature="e#23496#23633#0" expanded="true" />
+            <element signature="e#23632#23633#0" expanded="true" />
+            <element signature="e#23715#23853#0" expanded="true" />
+            <element signature="e#23852#23853#0" expanded="true" />
+            <element signature="e#23935#24071#0" expanded="true" />
+            <element signature="e#24070#24071#0" expanded="true" />
+            <element signature="e#24154#24464#0" expanded="true" />
+            <element signature="e#24463#24464#0" expanded="true" />
+            <element signature="e#24547#24896#0" expanded="true" />
+            <element signature="e#24895#24896#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -431,50 +493,18 @@
           <caret line="366" column="23" lean-forward="true" selection-start-line="366" selection-start-column="23" selection-end-line="366" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#5368#5557#0" expanded="true" />
-            <element signature="e#5556#5557#0" expanded="true" />
-            <element signature="e#6167#6359#0" expanded="true" />
-            <element signature="e#6358#6359#0" expanded="true" />
-            <element signature="e#6455#6703#0" expanded="true" />
-            <element signature="e#6702#6703#0" expanded="true" />
-            <element signature="e#6741#8386#0" expanded="true" />
-            <element signature="e#8385#8386#0" expanded="true" />
-            <element signature="e#8424#8873#0" expanded="true" />
-            <element signature="e#8872#8873#0" expanded="true" />
-            <element signature="e#8913#9074#0" expanded="true" />
-            <element signature="e#9073#9074#0" expanded="true" />
-            <element signature="e#9112#9271#0" expanded="true" />
-            <element signature="e#9270#9271#0" expanded="true" />
-            <element signature="e#9310#9470#0" expanded="true" />
-            <element signature="e#9469#9470#0" expanded="true" />
-            <element signature="e#9507#9665#0" expanded="true" />
-            <element signature="e#9664#9665#0" expanded="true" />
-            <element signature="e#9704#9868#0" expanded="true" />
-            <element signature="e#9867#9868#0" expanded="true" />
-            <element signature="e#9907#10156#0" expanded="true" />
-            <element signature="e#10155#10156#0" expanded="true" />
-            <element signature="e#10193#10551#0" expanded="true" />
-            <element signature="e#10550#10551#0" expanded="true" />
-            <element signature="e#10591#10948#0" expanded="true" />
-            <element signature="e#10947#10948#0" expanded="true" />
-            <element signature="e#10984#11482#0" expanded="true" />
-            <element signature="e#11481#11482#0" expanded="true" />
-            <element signature="e#11519#12058#0" expanded="true" />
-            <element signature="e#12057#12058#0" expanded="true" />
-            <element signature="e#12097#12327#0" expanded="true" />
-            <element signature="e#12326#12327#0" expanded="true" />
-            <element signature="e#15107#16121#0" expanded="true" />
-            <element signature="e#16120#16121#0" expanded="true" />
-            <element signature="e#23458#23595#0" expanded="true" />
-            <element signature="e#23594#23595#0" expanded="true" />
-            <element signature="e#23677#23815#0" expanded="true" />
-            <element signature="e#23814#23815#0" expanded="true" />
-            <element signature="e#23897#24033#0" expanded="true" />
-            <element signature="e#24032#24033#0" expanded="true" />
-            <element signature="e#24142#24452#0" expanded="true" />
-            <element signature="e#24451#24452#0" expanded="true" />
-            <element signature="e#24535#24884#0" expanded="true" />
-            <element signature="e#24883#24884#0" expanded="true" />
+            <element signature="e#15107#16445#0" expanded="true" />
+            <element signature="e#16444#16445#0" expanded="true" />
+            <element signature="e#23496#23633#0" expanded="true" />
+            <element signature="e#23632#23633#0" expanded="true" />
+            <element signature="e#23715#23853#0" expanded="true" />
+            <element signature="e#23852#23853#0" expanded="true" />
+            <element signature="e#23935#24071#0" expanded="true" />
+            <element signature="e#24070#24071#0" expanded="true" />
+            <element signature="e#24154#24464#0" expanded="true" />
+            <element signature="e#24463#24464#0" expanded="true" />
+            <element signature="e#24547#24896#0" expanded="true" />
+            <element signature="e#24895#24896#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -523,90 +553,62 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
           <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-          <folding>
-            <element signature="e#323#324#0" expanded="true" />
-            <element signature="e#354#355#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/unzip/LeftBottomJPanel.java">
+    <entry file="file://F:/WPS/src/xml/MItemListener.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/xml/XMLTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="55" column="52" lean-forward="true" selection-start-line="55" selection-start-column="52" selection-end-line="55" selection-end-column="52" />
+        <state relative-caret-position="-1320">
+          <caret line="52" column="29" selection-start-line="52" selection-start-column="29" selection-end-line="52" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#584#585#0" expanded="true" />
+            <element signature="e#623#624#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/xml/MItemListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="64" lean-forward="true" selection-start-line="22" selection-start-column="64" selection-end-line="22" selection-end-column="64" />
+        <state relative-caret-position="396">
+          <caret line="22" column="64" selection-start-line="22" selection-start-column="64" selection-end-line="22" selection-end-column="64" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/xml/XMLTree.java">
+    <entry file="file://$PROJECT_DIR$/src/UiView/Docx.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="518">
+          <caret line="394" column="25" lean-forward="true" selection-start-line="394" selection-start-column="25" selection-end-line="394" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#15107#16445#0" expanded="true" />
+            <element signature="e#16444#16445#0" expanded="true" />
+            <element signature="e#23496#23633#0" expanded="true" />
+            <element signature="e#23632#23633#0" expanded="true" />
+            <element signature="e#23715#23853#0" expanded="true" />
+            <element signature="e#23852#23853#0" expanded="true" />
+            <element signature="e#23935#24071#0" expanded="true" />
+            <element signature="e#24070#24071#0" expanded="true" />
+            <element signature="e#24154#24464#0" expanded="true" />
+            <element signature="e#24463#24464#0" expanded="true" />
+            <element signature="e#24547#24896#0" expanded="true" />
+            <element signature="e#24895#24896#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/UiView/Docx.java">
+    <entry file="file://$PROJECT_DIR$/src/unzip/LeftBottomJPanel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-361">
-          <caret line="564" selection-start-line="564" selection-end-line="564" />
+        <state relative-caret-position="330">
+          <caret line="57" column="71" lean-forward="true" selection-start-line="57" selection-start-column="71" selection-end-line="57" selection-end-column="71" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#5368#5557#0" expanded="true" />
-            <element signature="e#5556#5557#0" expanded="true" />
-            <element signature="e#6167#6359#0" expanded="true" />
-            <element signature="e#6358#6359#0" expanded="true" />
-            <element signature="e#6455#6703#0" expanded="true" />
-            <element signature="e#6702#6703#0" expanded="true" />
-            <element signature="e#6741#8386#0" expanded="true" />
-            <element signature="e#8385#8386#0" expanded="true" />
-            <element signature="e#8424#8873#0" expanded="true" />
-            <element signature="e#8872#8873#0" expanded="true" />
-            <element signature="e#8913#9074#0" expanded="true" />
-            <element signature="e#9073#9074#0" expanded="true" />
-            <element signature="e#9112#9271#0" expanded="true" />
-            <element signature="e#9270#9271#0" expanded="true" />
-            <element signature="e#9310#9470#0" expanded="true" />
-            <element signature="e#9469#9470#0" expanded="true" />
-            <element signature="e#9507#9665#0" expanded="true" />
-            <element signature="e#9664#9665#0" expanded="true" />
-            <element signature="e#9704#9868#0" expanded="true" />
-            <element signature="e#9867#9868#0" expanded="true" />
-            <element signature="e#9907#10156#0" expanded="true" />
-            <element signature="e#10155#10156#0" expanded="true" />
-            <element signature="e#10193#10551#0" expanded="true" />
-            <element signature="e#10550#10551#0" expanded="true" />
-            <element signature="e#10591#10948#0" expanded="true" />
-            <element signature="e#10947#10948#0" expanded="true" />
-            <element signature="e#10984#11482#0" expanded="true" />
-            <element signature="e#11481#11482#0" expanded="true" />
-            <element signature="e#11519#12058#0" expanded="true" />
-            <element signature="e#12057#12058#0" expanded="true" />
-            <element signature="e#12097#12327#0" expanded="true" />
-            <element signature="e#12326#12327#0" expanded="true" />
-            <element signature="e#15107#16121#0" expanded="true" />
-            <element signature="e#16120#16121#0" expanded="true" />
-            <element signature="e#23458#23595#0" expanded="true" />
-            <element signature="e#23594#23595#0" expanded="true" />
-            <element signature="e#23677#23815#0" expanded="true" />
-            <element signature="e#23814#23815#0" expanded="true" />
-            <element signature="e#23897#24033#0" expanded="true" />
-            <element signature="e#24032#24033#0" expanded="true" />
-            <element signature="e#24142#24452#0" expanded="true" />
-            <element signature="e#24451#24452#0" expanded="true" />
-            <element signature="e#24535#24884#0" expanded="true" />
-            <element signature="e#24883#24884#0" expanded="true" />
           </folding>
         </state>
       </provider>

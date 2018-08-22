@@ -399,23 +399,30 @@ public class Docx extends JFrame {
         jTree.addMouseListener(new MouseAdapter() {
             @Override
             public void mouseReleased(MouseEvent e) {
-                if (e.getClickCount() == 2) {
-                    TreePath path = jTree.getPathForLocation(e.getX(), e.getY());
-                    if (path == null) {
-                        return;
-                    } else {
-                        DefaultMutableTreeNode node = (DefaultMutableTreeNode) path.getLastPathComponent();
-                        String file = ((File) node.getUserObject()).getAbsolutePath().toString();
-                        //String file = (node.getUserObject().toString());//获取文件路径名
-                        DefaultMutableTreeNode selectedNode = (DefaultMutableTreeNode) path.getLastPathComponent();
-                        if (selectedNode.isLeaf()) {
-                             XmlOpenFile();
-                            //openGetFile(file);
-                            //openFileText();
-
-                        }
+//                if (e.getClickCount() == 2) {
+//                    TreePath path = jTree.getPathForLocation(e.getX(), e.getY());
+//                    if (path == null) {
+//                        return;
+//                    } else {
+//                        DefaultMutableTreeNode node = (DefaultMutableTreeNode) path.getLastPathComponent();
+//                        //String file = ((File) node.getUserObject()).getAbsolutePath().toString();
+//                        String file = (node.getUserObject().toString());//获取文件路径名
+//                        DefaultMutableTreeNode selectedNode = (DefaultMutableTreeNode) path.getLastPathComponent();
+//                        if (selectedNode.isLeaf()) {
+//                             XmlOpenFile();
+//                            //openGetFile(file);
+//                            //openFileText();
+//
+//                        }
+//                    }
+//                }
+                if (e.getSource() == jTree && e.getClickCount() == 2) {
+                    DefaultMutableTreeNode treeNode = (DefaultMutableTreeNode) jTree.getLastSelectedPathComponent();
+                    if (treeNode.isLeaf()) {
+                        XmlOpenFile();
                     }
                 }
+
             }
         });
     }

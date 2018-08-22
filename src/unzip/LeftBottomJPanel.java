@@ -12,6 +12,7 @@ import javax.swing.event.TreeModelListener;
 import javax.swing.event.TreeSelectionEvent;
 import javax.swing.event.TreeSelectionListener;
 import javax.swing.tree.DefaultMutableTreeNode;
+import javax.swing.tree.DefaultTreeCellRenderer;
 import javax.swing.tree.DefaultTreeModel;
 
 public class LeftBottomJPanel extends JPanel implements TreeModelListener, TreeSelectionListener {
@@ -40,6 +41,28 @@ public class LeftBottomJPanel extends JPanel implements TreeModelListener, TreeS
         jtree_3 = new JTree(treeModel);
         jtree_3.setEditable(true);
         this.setLayout(new BorderLayout());//布局
+
+        // 创建一个DefaultTreeCellRender对象
+        DefaultTreeCellRenderer cellRender = new DefaultTreeCellRenderer();
+        // 设置非选定节点的背景色。
+        cellRender.setBackgroundNonSelectionColor(new Color(220, 220, 220));
+        // 设置节点在选中状态下的背景颜色。
+        cellRender.setBackgroundSelectionColor(new Color(140, 140, 140));
+        // 设置选中状态下节点的边框颜色。
+        cellRender.setBorderSelectionColor(Color.BLACK);
+        // 设置处于折叠状态下非叶子节点的图标。
+        cellRender.setClosedIcon(new ImageIcon("./src/images/close.gif"));
+        // 设置节点文本的字体。
+        // cellRender.setFont(new Font("SansSerif" , Font.BOLD , 16));
+        // 设置叶子节点的图标。
+        cellRender.setLeafIcon(new ImageIcon("./src/images/leaf.png"));
+        // 设置处于展开状态下非叶子节点的图标。
+        cellRender.setOpenIcon(new ImageIcon("./src/images/open.gif"));
+        // 设置绘制非选中状态下节点文本的颜色。
+        cellRender.setTextNonSelectionColor(new Color(0, 0, 255));
+        // 设置绘制选中状态下节点文本的颜色。
+        cellRender.setTextSelectionColor(new Color(255, 0, 0));
+        jtree_3.setCellRenderer(cellRender);
 
         this.add(jtree_3);
     }
