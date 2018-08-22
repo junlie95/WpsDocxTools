@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="776424ff-562f-40ca-b14f-08d301195087" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/images/leaf.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/open.gif" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$17.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$17.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$18.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$18.class" afterDir="false" />
@@ -13,9 +11,7 @@
       <change beforePath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$22.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$22.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/JSplashWindowEx.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/JSplashWindowEx.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/unzip/LeftBottomJPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/unzip/LeftBottomJPanel.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/UiView/Docx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UiView/Docx.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/unzip/LeftBottomJPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/unzip/LeftBottomJPanel.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,35 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Docx.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Docx.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/UiView/Docx.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="518">
-              <caret line="394" column="25" lean-forward="true" selection-start-line="394" selection-start-column="25" selection-end-line="394" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#15107#16445#0" expanded="true" />
-                <element signature="e#16444#16445#0" expanded="true" />
-                <element signature="e#23496#23633#0" expanded="true" />
-                <element signature="e#23632#23633#0" expanded="true" />
-                <element signature="e#23715#23853#0" expanded="true" />
-                <element signature="e#23852#23853#0" expanded="true" />
-                <element signature="e#23935#24071#0" expanded="true" />
-                <element signature="e#24070#24071#0" expanded="true" />
-                <element signature="e#24154#24464#0" expanded="true" />
-                <element signature="e#24463#24464#0" expanded="true" />
-                <element signature="e#24547#24896#0" expanded="true" />
-                <element signature="e#24895#24896#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LeftBottomJPanel.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/unzip/LeftBottomJPanel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="57" column="71" lean-forward="true" selection-start-line="57" selection-start-column="71" selection-end-line="57" selection-end-column="71" />
+            <state relative-caret-position="464">
+              <caret line="216" column="38" selection-start-line="216" selection-start-column="38" selection-end-line="216" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -73,8 +45,9 @@
       <find>jTree</find>
       <find>jtree_3</find>
       <find>expandAll</find>
-      <find>XmlOpenFile</find>
       <find>images</find>
+      <find>openFileText</find>
+      <find>XmlOpenFile</find>
     </findStrings>
     <replaceStrings>
       <replace>LeftBottomJPanel</replace>
@@ -93,8 +66,8 @@
         <option value="$PROJECT_DIR$/src/UiView/LeftTopJPanel.java" />
         <option value="$PROJECT_DIR$/src/unzip/LeftBottomRightJPanel.java" />
         <option value="$PROJECT_DIR$/src/xml/Transform.java" />
-        <option value="$PROJECT_DIR$/src/UiView/Docx.java" />
         <option value="$PROJECT_DIR$/src/unzip/LeftBottomJPanel.java" />
+        <option value="$PROJECT_DIR$/src/UiView/Docx.java" />
       </list>
     </option>
   </component>
@@ -119,8 +92,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -132,12 +105,6 @@
               <item name="WpsMaxiongfeiEditor" type="b2602c69:ProjectViewProjectNode" />
               <item name="WpsMaxiongfeiEditor" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WpsMaxiongfeiEditor" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WpsMaxiongfeiEditor" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="WpsMaxiongfeiEditor" type="b2602c69:ProjectViewProjectNode" />
@@ -161,7 +128,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -265,34 +232,33 @@
       <workItem from="1534853190443" duration="2794000" />
       <workItem from="1534856040862" duration="24000" />
       <workItem from="1534901428664" duration="18000" />
-      <workItem from="1534901450659" duration="8066000" />
+      <workItem from="1534901450659" duration="9374000" />
+      <workItem from="1534919921122" duration="119000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13562000" />
+    <option name="totallyTimeSpent" value="14989000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1176" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32971373" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32872656" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32872656" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27985075" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28304905" />
       <window_info anchor="right" id="Database" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -304,6 +270,8 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32971373" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -315,22 +283,20 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/UiView/Docx.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4664">
+          <caret line="216" column="38" lean-forward="true" selection-start-line="216" selection-start-column="38" selection-end-line="216" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UiView/Docx.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="8976">
           <caret line="420" column="5" lean-forward="true" selection-start-line="420" selection-start-column="5" selection-end-line="420" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#15107#16445#0" expanded="true" />
-            <element signature="e#16444#16445#0" expanded="true" />
-            <element signature="e#23496#23633#0" expanded="true" />
-            <element signature="e#23632#23633#0" expanded="true" />
-            <element signature="e#23715#23853#0" expanded="true" />
-            <element signature="e#23852#23853#0" expanded="true" />
-            <element signature="e#23935#24071#0" expanded="true" />
-            <element signature="e#24070#24071#0" expanded="true" />
-            <element signature="e#24154#24464#0" expanded="true" />
-            <element signature="e#24463#24464#0" expanded="true" />
-            <element signature="e#24547#24896#0" expanded="true" />
-            <element signature="e#24895#24896#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -373,18 +339,6 @@
           <caret line="416" column="21" selection-start-line="416" selection-start-column="21" selection-end-line="416" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#15107#16445#0" expanded="true" />
-            <element signature="e#16444#16445#0" expanded="true" />
-            <element signature="e#23496#23633#0" expanded="true" />
-            <element signature="e#23632#23633#0" expanded="true" />
-            <element signature="e#23715#23853#0" expanded="true" />
-            <element signature="e#23852#23853#0" expanded="true" />
-            <element signature="e#23935#24071#0" expanded="true" />
-            <element signature="e#24070#24071#0" expanded="true" />
-            <element signature="e#24154#24464#0" expanded="true" />
-            <element signature="e#24463#24464#0" expanded="true" />
-            <element signature="e#24547#24896#0" expanded="true" />
-            <element signature="e#24895#24896#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -422,18 +376,6 @@
           <caret line="416" column="21" lean-forward="true" selection-start-line="416" selection-start-column="21" selection-end-line="416" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#15107#16445#0" expanded="true" />
-            <element signature="e#16444#16445#0" expanded="true" />
-            <element signature="e#23496#23633#0" expanded="true" />
-            <element signature="e#23632#23633#0" expanded="true" />
-            <element signature="e#23715#23853#0" expanded="true" />
-            <element signature="e#23852#23853#0" expanded="true" />
-            <element signature="e#23935#24071#0" expanded="true" />
-            <element signature="e#24070#24071#0" expanded="true" />
-            <element signature="e#24154#24464#0" expanded="true" />
-            <element signature="e#24463#24464#0" expanded="true" />
-            <element signature="e#24547#24896#0" expanded="true" />
-            <element signature="e#24895#24896#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -471,18 +413,6 @@
           <caret line="412" column="43" lean-forward="true" selection-start-line="412" selection-start-column="43" selection-end-line="412" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#15107#16445#0" expanded="true" />
-            <element signature="e#16444#16445#0" expanded="true" />
-            <element signature="e#23496#23633#0" expanded="true" />
-            <element signature="e#23632#23633#0" expanded="true" />
-            <element signature="e#23715#23853#0" expanded="true" />
-            <element signature="e#23852#23853#0" expanded="true" />
-            <element signature="e#23935#24071#0" expanded="true" />
-            <element signature="e#24070#24071#0" expanded="true" />
-            <element signature="e#24154#24464#0" expanded="true" />
-            <element signature="e#24463#24464#0" expanded="true" />
-            <element signature="e#24547#24896#0" expanded="true" />
-            <element signature="e#24895#24896#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -493,18 +423,6 @@
           <caret line="366" column="23" lean-forward="true" selection-start-line="366" selection-start-column="23" selection-end-line="366" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#15107#16445#0" expanded="true" />
-            <element signature="e#16444#16445#0" expanded="true" />
-            <element signature="e#23496#23633#0" expanded="true" />
-            <element signature="e#23632#23633#0" expanded="true" />
-            <element signature="e#23715#23853#0" expanded="true" />
-            <element signature="e#23852#23853#0" expanded="true" />
-            <element signature="e#23935#24071#0" expanded="true" />
-            <element signature="e#24070#24071#0" expanded="true" />
-            <element signature="e#24154#24464#0" expanded="true" />
-            <element signature="e#24463#24464#0" expanded="true" />
-            <element signature="e#24547#24896#0" expanded="true" />
-            <element signature="e#24895#24896#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -581,32 +499,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/UiView/Docx.java">
+    <entry file="file://$PROJECT_DIR$/src/unzip/LeftBottomJPanel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="394" column="25" lean-forward="true" selection-start-line="394" selection-start-column="25" selection-end-line="394" selection-end-column="25" />
+        <state relative-caret-position="990">
+          <caret line="57" column="71" lean-forward="true" selection-start-line="57" selection-start-column="71" selection-end-line="57" selection-end-column="71" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#15107#16445#0" expanded="true" />
-            <element signature="e#16444#16445#0" expanded="true" />
-            <element signature="e#23496#23633#0" expanded="true" />
-            <element signature="e#23632#23633#0" expanded="true" />
-            <element signature="e#23715#23853#0" expanded="true" />
-            <element signature="e#23852#23853#0" expanded="true" />
-            <element signature="e#23935#24071#0" expanded="true" />
-            <element signature="e#24070#24071#0" expanded="true" />
-            <element signature="e#24154#24464#0" expanded="true" />
-            <element signature="e#24463#24464#0" expanded="true" />
-            <element signature="e#24547#24896#0" expanded="true" />
-            <element signature="e#24895#24896#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/unzip/LeftBottomJPanel.java">
+    <entry file="file://$PROJECT_DIR$/src/UiView/Docx.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="57" column="71" lean-forward="true" selection-start-line="57" selection-start-column="71" selection-end-line="57" selection-end-column="71" />
+        <state relative-caret-position="464">
+          <caret line="216" column="38" selection-start-line="216" selection-start-column="38" selection-end-line="216" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

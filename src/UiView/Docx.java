@@ -220,7 +220,7 @@ public class Docx extends JFrame {
                     else {
                         openFileText();
                     }
-                    //openGetFile(file_2.getAbsolutePath().toString());
+
                 }
 
             }
@@ -399,29 +399,29 @@ public class Docx extends JFrame {
         jTree.addMouseListener(new MouseAdapter() {
             @Override
             public void mouseReleased(MouseEvent e) {
-//                if (e.getClickCount() == 2) {
-//                    TreePath path = jTree.getPathForLocation(e.getX(), e.getY());
-//                    if (path == null) {
-//                        return;
-//                    } else {
-//                        DefaultMutableTreeNode node = (DefaultMutableTreeNode) path.getLastPathComponent();
-//                        //String file = ((File) node.getUserObject()).getAbsolutePath().toString();
-//                        String file = (node.getUserObject().toString());//获取文件路径名
-//                        DefaultMutableTreeNode selectedNode = (DefaultMutableTreeNode) path.getLastPathComponent();
-//                        if (selectedNode.isLeaf()) {
-//                             XmlOpenFile();
-//                            //openGetFile(file);
-//                            //openFileText();
-//
-//                        }
-//                    }
-//                }
-                if (e.getSource() == jTree && e.getClickCount() == 2) {
-                    DefaultMutableTreeNode treeNode = (DefaultMutableTreeNode) jTree.getLastSelectedPathComponent();
-                    if (treeNode.isLeaf()) {
-                        XmlOpenFile();
+                if (e.getClickCount() == 2) {
+                    TreePath path = jTree.getPathForLocation(e.getX(), e.getY());
+                    if (path == null) {
+                        return;
+                    } else {
+                        DefaultMutableTreeNode node = (DefaultMutableTreeNode) path.getLastPathComponent();
+                        //String file = ((File) node.getUserObject()).getAbsolutePath().toString();
+                        String file = (node.getUserObject().toString());//获取文件路径名
+                        DefaultMutableTreeNode selectedNode = (DefaultMutableTreeNode) path.getLastPathComponent();
+                        if (selectedNode.isLeaf()) {
+                            XmlOpenFile();
+                            //openGetFile(file);
+                            //openFileText();
+
+                        }
                     }
                 }
+//                if (e.getSource() == jTree && e.getClickCount() == 2) {
+//                    DefaultMutableTreeNode treeNode = (DefaultMutableTreeNode) jTree.getLastSelectedPathComponent();
+//                    if (treeNode.isLeaf()) {
+//                        XmlOpenFile();
+//                    }
+//                }
 
             }
         });
@@ -441,156 +441,6 @@ public class Docx extends JFrame {
             e.printStackTrace();
         }
     }
-
-    /*
-        open打开选定文件
-    */
-    void openGetFile(String fileString) {
-        jTextArea.requestFocus();
-        String currentValue = jTextArea.getText();
-        jTextArea.setLineWrap(true);//双击打开xml文件时换行
-        boolean isTextChange = (currentValue.equals(oldValue)) ? false : true;
-
-        if (isTextChange) {
-
-            int saveChoose = JOptionPane.showConfirmDialog(this, "您的文件尚未保存。是否保存?", "提示", JOptionPane.YES_NO_CANCEL_OPTION);
-
-            if (saveChoose == JOptionPane.YES_NO_OPTION) {
-                String str = null;
-
-                JFileChooser fileChooser = new JFileChooser();
-                fileChooser.setFileSelectionMode(JFileChooser.FILES_ONLY);
-                fileChooser.setApproveButtonText("确定");
-                fileChooser.setDialogTitle("另存为");
-
-                int result = fileChooser.showSaveDialog(this);
-
-                if (result == JFileChooser.CANCEL_OPTION) {
-                    statusLabel.setText("您没有选择任何文件");
-                    return;
-                }
-
-                File saveFileName = fileChooser.getSelectedFile();
-
-                if (saveFileName == null || saveFileName.getName().equals(""))
-                    JOptionPane.showMessageDialog(this, "不合法的文件名", "不合法的文件名", JOptionPane.ERROR_MESSAGE);
-                else {
-                    try {
-                        FileWriter fw = new FileWriter(saveFileName);
-                        BufferedWriter bfw = new BufferedWriter(fw);
-                        bfw.write(jTextArea.getText(), 0, jTextArea.getText().length());
-                        bfw.flush();
-                        fw.close();
-
-                        isNewFile = false;
-                        currentFile = saveFileName;
-                        oldValue = jTextArea.getText();
-
-                        this.setTitle(saveFileName.getName() + " -docx助手");
-                        statusLabel.setText("当前打开文件:" + saveFileName.getAbsoluteFile());
-                    } catch (IOException ioException) {
-                    }
-                }
-            } else if (saveChoose == JOptionPane.NO_OPTION) {
-                String str = null;
-                File fileName = null;
-                if (fileString == null) {//
-                    JFileChooser fileChooser = new JFileChooser();
-                    fileChooser.setFileSelectionMode(JFileChooser.FILES_ONLY);
-                    fileChooser.setApproveButtonText("确定");
-                    fileChooser.setDialogTitle("打开文件");
-
-                    int result = fileChooser.showOpenDialog(this);
-
-                    if (result == JFileChooser.CANCEL_OPTION) {
-                        statusLabel.setText("　您没有选择任何文件");
-                        return;
-                    }
-
-                    fileName = fileChooser.getSelectedFile();
-                } else {
-                    fileName = new File(fileString);//
-                }
-
-                if (fileName == null || fileName.getName().equals(""))
-                    JOptionPane.showMessageDialog(this, "不合法的文件名", "不合法的文件名", JOptionPane.ERROR_MESSAGE);
-                else {
-
-                    try {
-                        FileReader fr = new FileReader(fileName);
-                        BufferedReader bfr = new BufferedReader(fr);
-
-
-                        jTextArea.setText("");
-                        jTextArea.setLineWrap(true);//换行
-                        int i = 0;//保存文件行数
-
-                        while ((str = bfr.readLine()) != null) {//每次读取一行，直到文件结束
-                            jTextArea.append(str + "\15\12");
-                            i++;
-                        }//endwhile
-
-                        this.setTitle(fileName.getName() + "  -docx助手");
-                        statusLabel.setText("　当前打开文件:" + fileName.getAbsoluteFile() + "    原始文件共有：" + i + "行");
-
-                        fr.close();
-                        isNewFile = false;
-                        currentFile = fileName;
-                        oldValue = jTextArea.getText();
-                    } catch (IOException ioException) {
-                        ioException.printStackTrace();
-                    }
-                }
-            } else {
-                return;
-            }
-        } else {
-            String str = null;
-            File fileName = null;
-            if (fileString == null) {//
-                JFileChooser fileChooser = new JFileChooser();
-                fileChooser.setFileSelectionMode(JFileChooser.FILES_ONLY);
-                fileChooser.setApproveButtonText("确定");
-                fileChooser.setDialogTitle("打开文件");
-
-                int result = fileChooser.showOpenDialog(this);
-
-                if (result == JFileChooser.CANCEL_OPTION) {
-                    statusLabel.setText("　您没有选择任何文件");
-                    return;
-                }
-
-                fileName = fileChooser.getSelectedFile();
-            } else {
-                fileName = new File(fileString);//
-            }
-            if (fileName == null || fileName.getName().equals(""))
-                JOptionPane.showMessageDialog(this, "不合法的文件名", "不合法的文件名", JOptionPane.ERROR_MESSAGE);
-            else {
-                try {
-                    FileReader fr = new FileReader(fileName);
-                    BufferedReader bfr = new BufferedReader(fr);
-
-                    jTextArea.setText("");
-
-                    while ((str = bfr.readLine()) != null) {//每次读取一行，直到文件结束
-                        jTextArea.append(str + "\15\12");
-                    }//endwhile
-
-                    this.setTitle(fileName.getName() + "  - 记事本");
-                    statusLabel.setText("　当前打开文件:" + fileName.getAbsoluteFile());
-
-                    fr.close();
-                    isNewFile = false;
-                    currentFile = fileName;
-                    oldValue = jTextArea.getText();
-                } catch (IOException ioException) {
-                    ioException.printStackTrace();
-                }
-            }
-
-        }
-    }//"打开"处理结束
 
     //保存文件
     void saveFileText() {
