@@ -9,6 +9,8 @@ import xml.ZipFileFilter;
 
 import javax.swing.*;
 import javax.swing.border.EmptyBorder;
+import javax.swing.event.ListSelectionEvent;
+import javax.swing.event.ListSelectionListener;
 import javax.swing.tree.DefaultMutableTreeNode;
 import javax.swing.tree.DefaultTreeCellRenderer;
 import javax.swing.tree.DefaultTreeModel;
@@ -426,7 +428,7 @@ public class Docx extends JFrame {
                         return;
                     } else {
                         DefaultMutableTreeNode node = (DefaultMutableTreeNode) path.getLastPathComponent();
-                        String file = ((File) node.getUserObject()).getAbsolutePath();
+                        String file = (node.getUserObject()).toString();
                         DefaultMutableTreeNode selectedNode = (DefaultMutableTreeNode) path.getLastPathComponent();
                         if (selectedNode.isLeaf()) {
                             XmlOpenFile();
@@ -469,6 +471,12 @@ public class Docx extends JFrame {
     JToolBar toolbar = new JToolBar();
     JButton[] buttons = new JButton[]
             {
+                    new JButton("", new ImageIcon("./src/images/New.gif")),
+
+                    new JButton("", new ImageIcon("./src/images/Open_02.gif")),
+
+                    new JButton("", new ImageIcon("./src/images/Save.gif")),
+
                     new JButton("", new ImageIcon("./src/images/copy.jpg")),
 
                     new JButton("", new ImageIcon("./src/images/paste.jpg")),
@@ -478,6 +486,13 @@ public class Docx extends JFrame {
                     new JButton("", new ImageIcon("./src/images/MS1.jpg")),
 
                     new JButton("", new ImageIcon("./src/images/MS2.jpg")),
+
+                    new JButton("", new ImageIcon("./src/images/Font.gif")),
+
+                    new JButton("", new ImageIcon("./src/images/FgColor.gif")),
+
+                    new JButton("", new ImageIcon("./src/images/BgColor.gif")),
+
             };
 
     //工具栏
@@ -485,29 +500,96 @@ public class Docx extends JFrame {
         for (int i = 0; i < buttons.length; i++)
             toolbar.add(buttons[i]);
 
-        buttons[0].setToolTipText("复制");
+        buttons[0].setToolTipText("新建");
         buttons[0].addActionListener(new AbstractAction() {
+            public void actionPerformed(ActionEvent e) {
+                Date date = new Date();
+                jTextArea.setText(date.toString());
+                file_2 = null;
+            }
+        });
+
+        buttons[1].setToolTipText("打开");
+        buttons[1].addActionListener(new AbstractAction() {
+            public void actionPerformed(ActionEvent e) {
+                jFileChooser = new JFileChooser();
+                /*
+                   文件过滤器
+                */
+                jFileChooser.setFileFilter(new XmlFileFilter());//选择XML文件
+                jFileChooser.setFileFilter(new ZipFileFilter());//zip文件
+                jFileChooser.setFileFilter(new DocxFileFilter());//优先选择docx文件
+
+                if (file_2 == null) {
+                    jFileChooser.setSelectedFile(file_2);
+                }
+
+                int returnVal = jFileChooser.showOpenDialog(Docx.this);
+                if (returnVal == JFileChooser.APPROVE_OPTION) {
+                    file_2 = jFileChooser.getSelectedFile();//返回选定的文件
+
+                    //如果是docx文档或者zip文档，直接解压
+                    if (file_2.getName().endsWith(".docx") || file_2.getName().endsWith(".zip")) {
+                        try {
+                            String strPath = "F:\\Android\\";
+                            UnZipFile.unZipFiles(file_2, strPath);
+                            path = strPath;
+                            init();//遍历目录，生成JTree目录树
+                        } catch (Exception e2) {
+                            e2.printStackTrace();
+                        }
+                    }
+                    //如果是XML文件，调用打开XML格式文件的函数
+                    else if (file_2.getName().endsWith(".xml")) {
+                        XmlOpenFile();
+                    }
+                    //其余为普通文本文件
+                    else {
+                        openFileText();
+                    }
+
+                }
+
+            }
+        });
+
+        buttons[2].setToolTipText("保存");
+        buttons[2].addActionListener(new AbstractAction() {
+            public void actionPerformed(ActionEvent e) {
+                if (file_2 != null)
+                    jFileChooser.setSelectedFile(file_2);
+
+                int returnVal = jFileChooser.showSaveDialog(Docx.this);
+                if (returnVal == JFileChooser.APPROVE_OPTION) {
+                    file_2 = jFileChooser.getSelectedFile();
+                    saveFileText();
+                }
+            }
+        });
+
+        buttons[3].setToolTipText("复制");
+        buttons[3].addActionListener(new AbstractAction() {
             public void actionPerformed(ActionEvent e) {
                 jTextArea.copy();
             }
         });
 
-        buttons[1].setToolTipText("粘贴");
-        buttons[1].addActionListener(new AbstractAction() {
+        buttons[4].setToolTipText("粘贴");
+        buttons[4].addActionListener(new AbstractAction() {
             public void actionPerformed(ActionEvent e) {
                 jTextArea.paste();
             }
         });
 
-        buttons[2].setToolTipText("剪切");
-        buttons[2].addActionListener(new AbstractAction() {
+        buttons[5].setToolTipText("剪切");
+        buttons[5].addActionListener(new AbstractAction() {
             public void actionPerformed(ActionEvent e) {
                 jTextArea.cut();
             }
         });
 
-        buttons[3].setToolTipText("记事本");
-        buttons[3].addActionListener(new AbstractAction() {
+        buttons[6].setToolTipText("记事本");
+        buttons[6].addActionListener(new AbstractAction() {
             public void actionPerformed(ActionEvent e) {
                 try {
                     String command = "notepad.exe";
@@ -517,8 +599,8 @@ public class Docx extends JFrame {
             }
         });
 
-        buttons[4].setToolTipText("计算器");
-        buttons[4].addActionListener(new AbstractAction() {
+        buttons[7].setToolTipText("计算器");
+        buttons[7].addActionListener(new AbstractAction() {
             public void actionPerformed(ActionEvent e) {
                 try {
                     String command = "calc.exe";
@@ -529,8 +611,36 @@ public class Docx extends JFrame {
             }
         });
 
-        this.getContentPane().add(toolbar, BorderLayout.NORTH);
+        buttons[8].setToolTipText("设置字体");
+        buttons[8].addActionListener(new AbstractAction() {
+            public void actionPerformed(ActionEvent e) {
+                jTextArea.requestFocus();
+                new MyFont();
+            }
+        });
 
+        buttons[9].setToolTipText("设置字体颜色");
+        buttons[9].addActionListener(new AbstractAction() {
+            public void actionPerformed(ActionEvent e) {
+                //jTextArea.requestFocus();
+                color = JColorChooser.showDialog(Docx.this, "颜色选择", color);
+                jTextArea.setForeground(color);
+            }
+        });
+
+        buttons[10].setToolTipText("设置背景颜色");
+        buttons[10].addActionListener(new AbstractAction() {
+            public void actionPerformed(ActionEvent e) {
+                jTextArea.requestFocus();
+                Color color = JColorChooser.showDialog(Docx.this, "更改背景颜色", Color.white);
+                if (color != null) {
+                    jTextArea.setBackground(color);
+                } else
+                    return;
+            }
+        });
+
+        this.getContentPane().add(toolbar, BorderLayout.NORTH);
     }
 
     public static void main(String[] args) {
@@ -549,6 +659,185 @@ public class Docx extends JFrame {
         }
 
         new Docx();//创建Docx对象
+    }
+
+    //用于设置字体的类MyFont
+    class MyFont implements ActionListener {
+        JDialog fontDialog;
+        JTextField tfFont, tfSize, tfStyle;
+        int fontStyleConst[] = {Font.PLAIN, Font.BOLD, Font.ITALIC, Font.BOLD + Font.ITALIC};
+        JList listStyle, listFont, listSize;
+        JLabel sample;
+        JButton fontOkButton;
+
+        //构造函数MyFont
+        public MyFont() {
+
+            fontDialog = new JDialog(Docx.this, "字体设置", true);
+            Container con = fontDialog.getContentPane();
+            con.setLayout(new FlowLayout(FlowLayout.LEFT));
+
+            Font currentFont = jTextArea.getFont();
+
+            JLabel lblFont = new JLabel("字体(F):");
+            lblFont.setPreferredSize(new Dimension(100, 20));
+            JLabel lblStyle = new JLabel("字形(Y):");
+            lblStyle.setPreferredSize(new Dimension(100, 20));
+            JLabel lblSize = new JLabel("大小(S):");
+            lblSize.setPreferredSize(new Dimension(100, 20));
+            tfFont = new JTextField(15);
+            tfFont.setText(currentFont.getFontName());
+            tfFont.selectAll();
+            tfFont.setPreferredSize(new Dimension(200, 20));
+            tfStyle = new JTextField(15);
+            if (currentFont.getStyle() == Font.PLAIN)
+                tfStyle.setText("常规");
+            else if (currentFont.getStyle() == Font.BOLD)
+                tfStyle.setText("粗体");
+            else if (currentFont.getStyle() == Font.ITALIC)
+                tfStyle.setText("斜体");
+            else if (currentFont.getStyle() == (Font.BOLD + Font.ITALIC))
+                tfStyle.setText("粗斜体");
+
+            tfFont.selectAll();
+            tfStyle.setPreferredSize(new Dimension(200, 20));
+            tfSize = new JTextField(8);
+            tfSize.setText(currentFont.getSize() + "");
+            tfSize.selectAll();
+            tfSize.setPreferredSize(new Dimension(200, 20));
+
+
+            final String fontStyle[] = {"常规", "粗体", "斜体", "粗斜体"};
+            listStyle = new JList(fontStyle);
+
+            GraphicsEnvironment ge = GraphicsEnvironment.getLocalGraphicsEnvironment();
+            final String fontName[] = ge.getAvailableFontFamilyNames();
+            int defaultFontIndex = 0;
+            for (int i = 0; i < fontName.length; i++) {
+                if (fontName[i].equals(currentFont.getFontName())) {
+                    defaultFontIndex = i;
+                    break;
+                }
+            }
+            listFont = new JList(fontName);
+            listFont.setSelectedIndex(defaultFontIndex);
+            listFont.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
+            listFont.setVisibleRowCount(7);
+            listFont.setFixedCellWidth(82);
+            listFont.setFixedCellHeight(20);
+            listFont.addListSelectionListener(
+                    new ListSelectionListener() {
+                        public void valueChanged(ListSelectionEvent event) {
+                            tfFont.setText(fontName[listFont.getSelectedIndex()]);
+                            tfFont.requestFocus();
+                            tfFont.selectAll();
+                            updateSample();
+                        }
+                    }
+            );
+
+            listStyle.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
+            if (currentFont.getStyle() == Font.PLAIN)
+                listStyle.setSelectedIndex(0);
+            else if (currentFont.getStyle() == Font.BOLD)
+                listStyle.setSelectedIndex(1);
+            else if (currentFont.getStyle() == Font.ITALIC)
+                listStyle.setSelectedIndex(2);
+            else if (currentFont.getStyle() == (Font.BOLD + Font.ITALIC))
+                listStyle.setSelectedIndex(3);
+
+            listStyle.setVisibleRowCount(7);
+            listStyle.setFixedCellWidth(99);
+            listStyle.setFixedCellHeight(20);
+            listStyle.addListSelectionListener(
+                    new ListSelectionListener() {
+                        public void valueChanged(ListSelectionEvent event) {
+                            tfStyle.setText(fontStyle[listStyle.getSelectedIndex()]);
+                            tfStyle.requestFocus();
+                            tfStyle.selectAll();
+                            updateSample();
+                        }
+                    }
+            );
+
+            final String fontSize[] = {"8", "9", "10", "11", "12", "14", "16", "18", "20", "22", "24", "26", "28", "36", "48", "72"};
+            listSize = new JList(fontSize);
+            int defaultFontSizeIndex = 0;
+            for (int i = 0; i < fontSize.length; i++) {
+                if (fontSize[i].equals(currentFont.getSize() + "")) {
+                    defaultFontSizeIndex = i;
+                    break;
+                }
+            }
+            listSize.setSelectedIndex(defaultFontSizeIndex);
+
+            listSize.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
+            listSize.setVisibleRowCount(7);
+            listSize.setFixedCellWidth(39);
+            listSize.setFixedCellHeight(20);
+            listSize.addListSelectionListener(
+                    new ListSelectionListener() {
+                        public void valueChanged(ListSelectionEvent event) {
+                            tfSize.setText(fontSize[listSize.getSelectedIndex()]);
+                            tfSize.requestFocus();
+                            tfSize.selectAll();
+                            updateSample();
+                        }
+                    }
+            );
+            fontOkButton = new JButton("确定");
+            fontOkButton.addActionListener(this);
+            JButton cancelButton = new JButton("取消");
+            cancelButton.addActionListener(new ActionListener() {
+                public void actionPerformed(ActionEvent e) {
+                    fontDialog.dispose();
+                }
+            });
+
+            sample = new JLabel("Editor");
+            sample.setHorizontalAlignment(SwingConstants.CENTER);
+            sample.setPreferredSize(new Dimension(300, 50));
+
+            JPanel samplePanel = new JPanel();
+            samplePanel.setBorder(BorderFactory.createTitledBorder("示例"));
+            samplePanel.add(sample);
+
+            con.add(lblFont);
+            con.add(lblStyle);
+            con.add(lblSize);
+            con.add(tfFont);
+            con.add(tfStyle);
+            con.add(tfSize);
+            con.add(fontOkButton);
+            con.add(new JScrollPane(listFont));
+            con.add(new JScrollPane(listStyle));
+            con.add(new JScrollPane(listSize));
+            con.add(cancelButton);
+            con.add(samplePanel);
+            updateSample();
+
+
+            fontDialog.setSize(350, 340);
+            fontDialog.setLocation(800, 450);
+            fontDialog.setResizable(false);
+            fontDialog.setVisible(true);
+        }//构造函数结束
+
+        //更新示例显示的字体和风格大小等
+        public void updateSample() {
+            Font sampleFont = new Font(tfFont.getText(), fontStyleConst[listStyle.getSelectedIndex()], Integer.parseInt(tfSize.getText()));
+            sample.setFont(sampleFont);
+        }
+
+        //设置文本编辑区的字体
+        public void actionPerformed(ActionEvent e) {
+            if (e.getSource() == fontOkButton) {
+                Font tempFont = new Font(tfFont.getText(), fontStyleConst[listStyle.getSelectedIndex()], Integer.parseInt(tfSize.getText()));
+                jTextArea.setFont(tempFont);
+                new LineNumberHeaderView().setFont(tempFont);
+                fontDialog.dispose();
+            }
+        }
     }
 
 }
