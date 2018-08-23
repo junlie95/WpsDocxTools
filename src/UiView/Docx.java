@@ -34,7 +34,7 @@ public class Docx extends JFrame {
     public static JFileChooser jFileChooser;
     Color color = Color.black;
 
-    public static JTree jTree;
+    public static DragTree jTree;
     public static DefaultTreeModel newModel;//一棵树
     public static DefaultMutableTreeNode Node;//节点
     static DefaultMutableTreeNode temp;
@@ -358,7 +358,7 @@ public class Docx extends JFrame {
     public void init() {
         Node = traverseFolder(path);
         newModel = new DefaultTreeModel(Node);
-        jTree = new JTree(newModel);
+        jTree = new DragTree(newModel);
         //靠近左边
         leftTopJPanel.setBorder(new EmptyBorder(5, 5, 5, 5));
         leftTopJPanel.setLayout(new BorderLayout(0, 0));
@@ -427,12 +427,11 @@ public class Docx extends JFrame {
                     if (path == null) {
                         return;
                     } else {
-                        DefaultMutableTreeNode node = (DefaultMutableTreeNode) path.getLastPathComponent();
-                        String file = (node.getUserObject()).toString();
+                        FileNode node = (FileNode) path.getLastPathComponent();
+                        String file = ((File)node.getUserObject()).getAbsolutePath();
                         DefaultMutableTreeNode selectedNode = (DefaultMutableTreeNode) path.getLastPathComponent();
                         if (selectedNode.isLeaf()) {
                             XmlOpenFile();
-                            //openFileText();
                         }
                     }
                 }
@@ -441,6 +440,37 @@ public class Docx extends JFrame {
         });
 
     }
+
+//    public String getFilename() {
+//        TreePath path = jTree.getLeadSelectionPath();
+//        DefaultMutableTreeNode node = (DefaultMutableTreeNode) path.getLastPathComponent();
+//        return ((File) node.getUserObject()).getAbsolutePath();
+//    }
+
+//    //打开处理XML文件
+//    void XmlOpenFile_2() {
+//        BufferedReader reader;
+//        fileName = jFileChooser.getSelectedFile().getAbsolutePath();//返回选中文件的绝对路径
+//        LeftBottomJPanel.openFileName = fileName;
+//        try {
+//            reader = new BufferedReader(new FileReader(fileName));
+//            Docx.jTextArea.setText("");
+//            jTextArea.setLineWrap(true);//换行
+//            while ((line = reader.readLine()) != null) {
+//                Docx.jTextArea.append(line + "\n");
+//            }
+//            tree = (JTree) new XMLTree(fileName);//xml树目录
+//            LeftBottomJPanel.root.removeAllChildren();//将树目录展示在窗体上
+//            if (XMLTree.docType != null)
+//                LeftBottomJPanel.treeModel.insertNodeInto(XMLTree.docTypeNode, LeftBottomJPanel.root, LeftBottomJPanel.root.getChildCount());
+//            LeftBottomJPanel.treeModel.insertNodeInto(XMLTree.rootTreeNode, LeftBottomJPanel.root, LeftBottomJPanel.root.getChildCount());
+//            LeftBottomJPanel.treeModel.reload();
+//            expandAll(jtree_3, new TreePath(jtree_3.getModel().getRoot()));//调用expandAll函数
+//            reader.close();
+//        } catch (Exception ex) {
+//            ex.printStackTrace();
+//        }
+//    }
 
     //打开文件
     void openFileText() {
