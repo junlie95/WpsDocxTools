@@ -1,5 +1,6 @@
 package UiView;
 
+import app.UIFrame;
 import unzip.LeftBottomJPanel;
 import unzip.UnZipFile;
 import xml.DocxFileFilter;
@@ -27,8 +28,8 @@ import static xml.OpenFile.*;
 
 public class Docx extends JFrame {
     private JMenuBar jMenuBar;
-    private JMenu fileJMenu, editorJMenu, toolJMenu, helpMenu;
-    private JMenuItem newFile, openFile, saveFile, exitSystem, notepad, calculator, copyItem, pasteItem, cutItem, selectAll, colorItem, aboutItem, xmlSpy, wpsItem;
+    private JMenu fileJMenu, editorJMenu, toolJMenu, zipTool, helpMenu;
+    private JMenuItem newFile, openFile, saveFile, exitSystem, notepad, calculator, copyItem, pasteItem, cutItem, selectAll, colorItem, aboutItem, xmlSpy, wpsItem, zipItem;
     public static File file_2;
     public static JTextArea jTextArea;
     public static JFileChooser jFileChooser;
@@ -49,6 +50,7 @@ public class Docx extends JFrame {
         fileJMenu = new JMenu("文件(F)");
         editorJMenu = new JMenu("编辑(E)");
         toolJMenu = new JMenu("工具(T)");
+        zipTool = new JMenu("压缩(Z)");
         helpMenu = new JMenu("帮助(H)");
         //工具栏
         initToolBar();
@@ -78,6 +80,7 @@ public class Docx extends JFrame {
         selectAll = new JMenuItem("全选");
         selectAll.setAccelerator(KeyStroke.getKeyStroke(KeyEvent.VK_A, InputEvent.CTRL_MASK));
 
+        zipItem = new JMenuItem("压缩与解压缩");
         colorItem = new JMenuItem("颜色");
         aboutItem = new JMenuItem("关于");
         xmlSpy = new JMenuItem("XmlSpy");
@@ -86,6 +89,7 @@ public class Docx extends JFrame {
         jMenuBar.add(fileJMenu);
         jMenuBar.add(editorJMenu);
         jMenuBar.add(toolJMenu);
+        jMenuBar.add(zipTool);
         jMenuBar.add(helpMenu);
         //为fileJMenu菜单添加菜单项
         fileJMenu.add(newFile);
@@ -113,6 +117,8 @@ public class Docx extends JFrame {
         toolJMenu.add(xmlSpy);
         toolJMenu.addSeparator();
         toolJMenu.add(wpsItem);
+        //为zipTool菜单添加菜单项
+        zipTool.add(zipItem);
         //为helpMenu菜单添加菜单项
         helpMenu.add(aboutItem);
         //为窗体设置菜单栏
@@ -300,7 +306,7 @@ public class Docx extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 try {
-                    String command = "C:/Program Files (x86)/Altova/XMLSpy2013/XMLSpy.exe";
+                    String command = "C:\\Program Files (x86)\\Altova\\XMLSpy2013\\XMLSpy.exe";
                     Process process = Runtime.getRuntime().exec(command);
                     System.err.println("process==" + process.getInputStream());
                 } catch (IOException ex3) {
@@ -312,7 +318,7 @@ public class Docx extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 try {
-                    String command = "C:\\Users\\junlie\\AppData\\Local\\Kingsoft\\WPS Office\\11.1.0.7693\\office6\\wpsoffice.exe";
+                    String command = "C:\\Users\\junlie\\AppData\\Local\\Kingsoft\\WPS Office\\wps.exe";
                     Process process = Runtime.getRuntime().exec(command);
                     System.err.println("process==" + process.getInputStream());
                 } catch (IOException ex4) {
@@ -324,6 +330,12 @@ public class Docx extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 JOptionPane.showMessageDialog(aboutItem, "欢迎使用君烈的docx助手！！！", "关于", INFORMATION_MESSAGE);
+            }
+        });
+        zipItem.addActionListener(new AbstractAction() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                new UIFrame();//创建UIFrame对象就能跑起来
             }
         });
 
@@ -428,7 +440,7 @@ public class Docx extends JFrame {
                         return;
                     } else {
                         FileNode node = (FileNode) path.getLastPathComponent();
-                        String file = ((File)node.getUserObject()).getAbsolutePath();
+                        String file = ((File) node.getUserObject()).getAbsolutePath();
                         DefaultMutableTreeNode selectedNode = (DefaultMutableTreeNode) path.getLastPathComponent();
                         if (selectedNode.isLeaf()) {
                             XmlOpenFile();
@@ -491,6 +503,8 @@ public class Docx extends JFrame {
                     new JButton("", new ImageIcon("./src/images/FgColor.gif")),
 
                     new JButton("", new ImageIcon("./src/images/BgColor.gif")),
+
+                    new JButton("", new ImageIcon("./src/images/Url.gif"))
 
             };
 
@@ -636,6 +650,14 @@ public class Docx extends JFrame {
                     jTextArea.setBackground(color);
                 } else
                     return;
+            }
+        });
+
+        buttons[11].setToolTipText("压缩与解压缩");
+        buttons[11].addActionListener(new AbstractAction() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                new UIFrame();
             }
         });
 

@@ -6,7 +6,7 @@ import javax.swing.tree.DefaultTreeModel;
 import javax.swing.tree.TreePath;
 import java.io.File;
 
-class DragTree extends JTree{
+class DragTree extends JTree {
 
     public DragTree(DefaultTreeModel defaultTreeModel) {
         super(defaultTreeModel);
