@@ -43,6 +43,8 @@ public class Docx extends JFrame {
     public LeftBottomJPanel leftBottomJPanel;
     public LeftTopJPanel leftTopJPanel;
 
+    public String strPath;//解压文件路径
+
     public Docx() {
         //菜单栏
         jMenuBar = new JMenuBar();
@@ -124,7 +126,7 @@ public class Docx extends JFrame {
         //为窗体设置菜单栏
         this.setJMenuBar(jMenuBar);
         this.setTitle("wps_docx助手");
-        this.setBounds(400, 300, 1250, 700);
+        this.setBounds(400, 200, 1250, 700);
         //this.setVisible(true);
         this.setDefaultCloseOperation(this.EXIT_ON_CLOSE);
 
@@ -210,7 +212,8 @@ public class Docx extends JFrame {
                     //如果是docx文档或者zip文档，直接解压
                     if (file_2.getName().endsWith(".docx") || file_2.getName().endsWith(".zip")) {
                         try {
-                            String strPath = "F:\\Android\\";
+                            //String strPath = "F:\\Android\\";
+                            strPath = "F:\\Android\\";
                             UnZipFile.unZipFiles(file_2, strPath);
                             path = strPath;
                             init();//遍历目录，生成JTree目录树
@@ -398,6 +401,8 @@ public class Docx extends JFrame {
         jTree.setCellRenderer(cellRender);
 
         leftTopJPanel.add(jTree);//直接使用LeftTopJPanel的滚动条
+
+        //if (Node.isLeaf() && Node.toString().endsWith(".xml"))
         XmlTreeClick();
     }
 
@@ -430,6 +435,16 @@ public class Docx extends JFrame {
         return fujiedian;
     }
 
+
+    public void openIt(File file) {//调用电脑中的程序“打开”文件的方法
+        try {
+            Desktop.getDesktop().open(file);
+        } catch (IOException e1) {
+            // TODO Auto-generated catch block
+            e1.printStackTrace();
+        }
+    }
+
     public void XmlTreeClick() {
         jTree.addMouseListener(new MouseAdapter() {
             @Override
@@ -439,12 +454,18 @@ public class Docx extends JFrame {
                     if (path == null) {
                         return;
                     } else {
-                        FileNode node = (FileNode) path.getLastPathComponent();
-                        String file = ((File) node.getUserObject()).getAbsolutePath();
+                        //FileNode node = (FileNode) path.getLastPathComponent();
+                        //String file = ((File) node.getUserObject()).getAbsolutePath();
+                        //String file = ((File) node.getUserObject()).getAbsolutePath().toString();
                         DefaultMutableTreeNode selectedNode = (DefaultMutableTreeNode) path.getLastPathComponent();
                         if (selectedNode.isLeaf()) {
-                            XmlOpenFile();
+                            //姑且如此
+                            File file_s = new File(strPath + file_2.getName().substring(0, file_2.getName().lastIndexOf("."))
+                                    + "\\word\\" + path.getLastPathComponent().toString());
+                            openIt(file_s);
+                            //XmlOpenFile();
                         }
+
                     }
                 }
 
@@ -544,7 +565,7 @@ public class Docx extends JFrame {
                     //如果是docx文档或者zip文档，直接解压
                     if (file_2.getName().endsWith(".docx") || file_2.getName().endsWith(".zip")) {
                         try {
-                            String strPath = "F:\\Android\\";
+                            strPath = "F:\\Android\\";
                             UnZipFile.unZipFiles(file_2, strPath);
                             path = strPath;
                             init();//遍历目录，生成JTree目录树

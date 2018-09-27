@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d9fbb34b-e958-40ad-92e7-4630a4ccc523" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/CompactAlgorithm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/UIFrame.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/UnZipFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/Url.gif" afterDir="false" />
+    <list default="true" id="cfc0a40a-7023-4545-a13a-93eb3a80320e" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WpsMaxiongfeiEditor.iml" beforeDir="false" afterPath="$PROJECT_DIR$/WpsMaxiongfeiEditor.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$10.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$11.class" afterDir="false" />
@@ -30,7 +27,9 @@
       <change beforePath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$26.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$26.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$27.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$27.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$28.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$28.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$29.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$29.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$30.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$30.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$4.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$5.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$6.class" afterDir="false" />
@@ -43,11 +42,12 @@
       <change beforePath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$MyFont$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$MyFont$4.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$MyFont.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$MyFont.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/DragTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/DragTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/FileNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/FileNode.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/JSplashWindowEx.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/JSplashWindowEx.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/xml/ZipFileFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/xml/ZipFileFilter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/UiView/Docx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UiView/Docx.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/UiView/DragTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UiView/DragTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/xml/ZipFileFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/xml/ZipFileFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/document/XmlModify.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/document/XmlModify.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -57,55 +57,36 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="Docx.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/UiView/Docx.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="42" column="45" lean-forward="true" selection-start-line="42" selection-start-column="45" selection-end-line="42" selection-end-column="45" />
+            <state relative-caret-position="270">
+              <caret line="460" column="52" lean-forward="true" selection-start-line="460" selection-start-column="52" selection-end-line="460" selection-end-column="52" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="App.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/App.java">
+      <file leaf-file-name="DragTree.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/UiView/DragTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UIFrame.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/UIFrame.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="902">
-              <caret line="41" column="60" selection-start-line="41" selection-start-column="60" selection-end-line="41" selection-end-column="60" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UnZipFile.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/UnZipFile.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CompactAlgorithm.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/app/CompactAlgorithm.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="516">
+              <caret line="235" selection-start-line="235" selection-end-line="235" />
             </state>
           </provider>
         </entry>
@@ -118,10 +99,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/app/CompactAlgorithm.java" />
-        <option value="$PROJECT_DIR$/src/app/UnZipFile.java" />
-        <option value="$PROJECT_DIR$/src/app/App.java" />
-        <option value="$PROJECT_DIR$/src/app/UIFrame.java" />
+        <option value="$PROJECT_DIR$/src/UiView/DragTree.java" />
         <option value="$PROJECT_DIR$/src/UiView/Docx.java" />
       </list>
     </option>
@@ -135,21 +113,17 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="308" />
-    <option name="y" value="164" />
-    <option name="width" value="1936" />
-    <option name="height" value="1176" />
-  </component>
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="85" />
+    <option name="y" value="25" />
+    <option name="width" value="1750" />
+    <option name="height" value="970" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -174,46 +148,29 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="UiView" type="462c0819:PsiDirectoryNode" />
             </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="AndroidView">
-        <subPane>
-          <expand>
             <path>
-              <item name="WpsMaxiongfeiEditor" type="1abcf292:AndroidViewProjectNode" />
-              <item name="WpsMaxiongfeiEditor" type="e9137016:NonAndroidModuleNode" />
+              <item name="WpsMaxiongfeiEditor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="Downloaded.Files.Path.Enabled" value="false" />
-    <property name="Repository.Attach.JavaDocs" value="false" />
-    <property name="Repository.Attach.Sources" value="false" />
+    <property name="SearchEverywhereHistoryKey" value="DefaultMutableTreeNode.java&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_74/src.zip!/javax/swing/tree/DefaultMutableTreeNode.java&#10;DefaultMutableTreeNode.&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.8.0_74/src.zip!/javax/swing/tree/DefaultMutableTreeNode.java&#10;FileTreeNode&#9;PSI&#9;JAVA://UiView.FileTreeNode" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="G:/LimEditor/LimEditor/LimEditor源码" />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="last_opened_file_path" value="F:/dom4j-2.1.1.jar!/" />
     <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="app" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="G:\WpsMaxiongfeiEditor\src\images" />
-      <recent name="G:\WpsMaxiongfeiEditor\src\app" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -307,55 +264,67 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d9fbb34b-e958-40ad-92e7-4630a4ccc523" name="Default" comment="" />
-      <created>1536371479871</created>
+      <changelist id="cfc0a40a-7023-4545-a13a-93eb3a80320e" name="Default" comment="" />
+      <created>1537832062327</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1536371479871</updated>
-      <workItem from="1536371481315" duration="738000" />
-      <workItem from="1536374171487" duration="66000" />
-      <workItem from="1536374743747" duration="173000" />
-      <workItem from="1536392820221" duration="28000" />
-      <workItem from="1536550178085" duration="105000" />
-      <workItem from="1536561782232" duration="4135000" />
-      <workItem from="1536627057468" duration="1212000" />
-      <workItem from="1536723251179" duration="4062000" />
-      <workItem from="1536736203705" duration="4000" />
-      <workItem from="1536737329923" duration="3985000" />
-      <workItem from="1536742152060" duration="56000" />
-      <workItem from="1536742414283" duration="26000" />
+      <updated>1537832062327</updated>
+      <workItem from="1537832070004" duration="455000" />
+      <workItem from="1537836091191" duration="1069000" />
+      <workItem from="1537837277317" duration="65000" />
+      <workItem from="1537837367605" duration="59000" />
+      <workItem from="1537847505607" duration="967000" />
+      <workItem from="1537917192018" duration="749000" />
+      <workItem from="1537897435103" duration="3479000" />
+      <workItem from="1537901708836" duration="702000" />
+      <workItem from="1537902452157" duration="2006000" />
+      <workItem from="1537934073123" duration="22000" />
+      <workItem from="1537935273480" duration="793000" />
+      <workItem from="1537943958907" duration="7780000" />
+      <workItem from="1537952097578" duration="55000" />
+      <workItem from="1537952185696" duration="278000" />
+      <workItem from="1537955459332" duration="31000" />
+      <workItem from="1537955512472" duration="819000" />
+      <workItem from="1537963037938" duration="2056000" />
+      <workItem from="1537965681856" duration="982000" />
+      <workItem from="1537966736613" duration="12000" />
+      <workItem from="1537966774204" duration="18000" />
+      <workItem from="1537971026224" duration="1173000" />
+      <workItem from="1537973577518" duration="77000" />
+      <workItem from="1537973696932" duration="4667000" />
+      <workItem from="1538012912909" duration="586000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14590000" />
+    <option name="totallyTimeSpent" value="28900000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1176" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32971373" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32872656" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.25370187" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32938856" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31095755" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3293944" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2803838" />
-      <window_info anchor="right" id="Database" order="3" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27345416" />
+      <window_info anchor="right" id="Database" order="3" weight="0.3297587" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3308715" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -372,199 +341,409 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="15" />
     </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>path.getLastPathComponent(</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+    </expressions>
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>strPath + file_2.getName().substring(0, file_2.getName().lastIndexOf(&quot;.&quot;))
+                                    + &quot;\\word\\&quot; + path.getLastPathComponent().toString()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>file_2.getName().substring(0, file_2.getName().lastIndexOf(&quot;.&quot;))
+                                    + &quot;\\&quot; + path.getLastPathComponent().toString()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>&quot;F:\\&quot;+path.getLastPathComponent().toString().replace(&quot;,&quot;,&quot;\\&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>path.getLastPathComponent().toString()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>&quot;F:\\&quot;+path.toString().replace(&quot;,&quot;,&quot;\\&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>path.toString()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>path+selectedNode.toString()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>selectedNode.toString()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>file_s</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/UiView/Docx.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="41" column="46" lean-forward="true" selection-start-line="41" selection-start-column="46" selection-end-line="41" selection-end-column="46" />
+        <state relative-caret-position="10186">
+          <caret line="463" column="44" lean-forward="true" selection-start-line="462" selection-start-column="42" selection-end-line="463" selection-end-column="44" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/App.java">
+    <entry file="file://$PROJECT_DIR$/src/UiView/DragTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/UIFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="902">
-          <caret line="41" column="60" selection-start-line="41" selection-start-column="60" selection-end-line="41" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/UnZipFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/CompactAlgorithm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="1210">
+          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/UiView/Docx.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13508">
-          <caret line="660" column="13" lean-forward="true" selection-start-line="660" selection-start-column="13" selection-end-line="660" selection-end-column="13" />
+        <state relative-caret-position="8721">
+          <caret line="459" column="62" selection-start-line="459" selection-start-column="62" selection-end-line="459" selection-end-column="62" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/App.java">
+    <entry file="file://$PROJECT_DIR$/src/UiView/DragTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/UIFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="902">
-          <caret line="41" column="60" selection-start-line="41" selection-start-column="60" selection-end-line="41" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/UnZipFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/CompactAlgorithm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="3648">
+          <caret line="192" column="67" selection-start-line="192" selection-start-column="67" selection-end-line="192" selection-end-column="67" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/UiView/Docx.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6160">
-          <caret line="315" column="54" selection-start-line="315" selection-start-column="54" selection-end-line="315" selection-end-column="54" />
+        <state relative-caret-position="8721">
+          <caret line="459" column="62" selection-start-line="459" selection-start-column="62" selection-end-line="459" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UiView/DragTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3648">
+          <caret line="192" column="67" selection-start-line="192" selection-start-column="67" selection-end-line="192" selection-end-column="67" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/UiView/Docx.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6160">
-          <caret line="315" column="54" selection-start-line="315" selection-start-column="54" selection-end-line="315" selection-end-column="54" />
+        <state relative-caret-position="8721">
+          <caret line="459" column="91" selection-start-line="459" selection-start-column="91" selection-end-line="459" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UiView/DragTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3648">
+          <caret line="192" column="67" selection-start-line="192" selection-start-column="67" selection-end-line="192" selection-end-column="67" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/UiView/Docx.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8998">
-          <caret line="444" column="25" selection-start-line="444" selection-start-column="25" selection-end-line="444" selection-end-column="25" />
+        <state relative-caret-position="8721">
+          <caret line="459" column="91" selection-start-line="459" selection-start-column="91" selection-end-line="459" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UiView/DragTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3211">
+          <caret line="192" column="67" selection-start-line="192" selection-start-column="67" selection-end-line="192" selection-end-column="67" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/UiView/Docx.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9768">
-          <caret line="444" column="25" lean-forward="true" selection-start-line="444" selection-start-column="25" selection-end-line="444" selection-end-column="25" />
+        <state relative-caret-position="8721">
+          <caret line="459" column="91" selection-start-line="459" selection-start-column="91" selection-end-line="459" selection-end-column="91" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/xml/Transform.java">
+    <entry file="file://$PROJECT_DIR$/src/UiView/DragTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="29" lean-forward="true" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="3648">
+          <caret line="192" column="67" selection-start-line="192" selection-start-column="67" selection-end-line="192" selection-end-column="67" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/xml/Transform.java">
+    <entry file="file://$PROJECT_DIR$/src/UiView/Docx.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="29" lean-forward="true" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="8721">
+          <caret line="459" column="68" lean-forward="true" selection-start-line="459" selection-start-column="68" selection-end-line="459" selection-end-column="68" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/xml/Transform.java">
+    <entry file="file://$PROJECT_DIR$/src/UiView/DragTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3648">
+          <caret line="192" column="67" lean-forward="true" selection-start-line="192" selection-start-column="67" selection-end-line="192" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UiView/Docx.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8550">
+          <caret line="450" column="39" selection-start-line="450" selection-start-column="39" selection-end-line="450" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UiView/DragTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3648">
+          <caret line="192" column="75" lean-forward="true" selection-start-line="192" selection-start-column="75" selection-end-line="192" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UiView/Docx.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8550">
+          <caret line="450" column="39" selection-start-line="450" selection-start-column="39" selection-end-line="450" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UiView/DragTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3857">
+          <caret line="203" column="34" lean-forward="true" selection-start-line="203" selection-start-column="34" selection-end-line="203" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UiView/Docx.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8550">
+          <caret line="450" column="39" selection-start-line="450" selection-start-column="39" selection-end-line="450" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UiView/DragTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3990">
+          <caret line="210" column="7" selection-start-line="210" selection-start-column="7" selection-end-line="210" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UiView/Docx.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8550">
+          <caret line="450" column="39" selection-start-line="450" selection-start-column="39" selection-end-line="450" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UiView/DragTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3990">
+          <caret line="210" column="7" selection-start-line="210" selection-start-column="7" selection-end-line="210" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UiView/Docx.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8550">
+          <caret line="450" column="39" lean-forward="true" selection-start-line="450" selection-start-column="39" selection-end-line="450" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UiView/DragTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3990">
+          <caret line="210" column="7" lean-forward="true" selection-start-line="210" selection-start-column="7" selection-end-line="210" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UiView/Docx.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7828">
+          <caret line="450" column="27" lean-forward="true" selection-start-line="450" selection-start-column="27" selection-end-line="450" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UiView/Docx.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9861">
+          <caret line="557" column="65" selection-start-line="557" selection-start-column="65" selection-end-line="557" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UiView/DragTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
-          <caret line="19" column="32" lean-forward="true" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+          <caret line="30" column="22" lean-forward="true" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UiView/Docx.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10583">
+          <caret line="557" column="65" lean-forward="true" selection-start-line="557" selection-start-column="65" selection-end-line="557" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UiView/DragTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="28" lean-forward="true" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UiView/Docx.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8569">
+          <caret line="451" lean-forward="true" selection-start-line="451" selection-end-line="451" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UiView/DragTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="27" column="28" lean-forward="true" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UiView/Docx.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7638">
+          <caret line="402" column="23" lean-forward="true" selection-start-line="402" selection-start-column="23" selection-end-line="402" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UiView/DragTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="5" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UiView/Docx.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="33" lean-forward="true" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UiView/Docx.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="24" lean-forward="true" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UiView/Docx.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="44" lean-forward="true" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UiView/Docx.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="41" lean-forward="true" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UiView/Docx.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="35" column="30" lean-forward="true" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UiView/Docx.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="33" lean-forward="true" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WpsMaxiongfeiEditor.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="39" lean-forward="true" selection-start-line="1" selection-start-column="39" selection-end-line="1" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1387">
+          <caret line="5" column="87" lean-forward="true" selection-start-line="5" selection-start-column="87" selection-end-line="5" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/UIFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="22" lean-forward="true" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_74/src.zip!/javax/swing/tree/DefaultMutableTreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="352" column="6" lean-forward="true" selection-start-line="352" selection-start-column="6" selection-end-line="352" selection-end-column="6" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#11942#11943#0" expanded="true" />
+            <element signature="e#11975#11976#0" expanded="true" />
+            <element signature="e#20099#20100#0" expanded="true" />
+            <element signature="e#20144#20145#0" expanded="true" />
+            <element signature="e#22657#22658#0" expanded="true" />
+            <element signature="e#22699#22700#0" expanded="true" />
+            <element signature="e#36545#36546#0" expanded="true" />
+            <element signature="e#36590#36591#0" expanded="true" />
+            <element signature="e#48767#48768#0" expanded="true" />
+            <element signature="e#48814#48815#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/xml/Transform.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" column="17" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+        <state relative-caret-position="-1584">
+          <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/wps_test/src/UiView/Docx.java" />
-    <entry file="file://$PROJECT_DIR$/src/app/CompactAlgorithm.java">
+    <entry file="file://$PROJECT_DIR$/src/UiView/DragTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/UnZipFile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/UIFrame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="902">
-          <caret line="41" column="60" selection-start-line="41" selection-start-column="60" selection-end-line="41" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+        <state relative-caret-position="516">
+          <caret line="235" selection-start-line="235" selection-end-line="235" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/UiView/Docx.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="42" column="45" lean-forward="true" selection-start-line="42" selection-start-column="45" selection-end-line="42" selection-end-column="45" />
+        <state relative-caret-position="270">
+          <caret line="460" column="52" lean-forward="true" selection-start-line="460" selection-start-column="52" selection-end-line="460" selection-end-column="52" />
         </state>
       </provider>
     </entry>
@@ -633,7 +812,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>jdom</last-edited>
+          <last-edited>dom4j-2.1.1</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
