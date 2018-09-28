@@ -2,52 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfc0a40a-7023-4545-a13a-93eb3a80320e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WpsMaxiongfeiEditor.iml" beforeDir="false" afterPath="$PROJECT_DIR$/WpsMaxiongfeiEditor.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$10.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$11.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$12.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$12.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$13.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$13.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$14.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$14.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$15.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$15.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$16.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$16.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$17.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$17.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$18.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$18.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$19.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$19.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$20.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$20.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$21.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$21.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$22.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$22.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$23.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$23.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$24.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$24.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$25.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$25.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$26.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$26.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$27.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$27.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$28.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$28.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$29.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$29.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$30.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$30.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$7.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$8.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$9.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$MyFont$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$MyFont$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$MyFont$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$MyFont$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$MyFont$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$MyFont$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$MyFont$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$MyFont$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$MyFont.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx$MyFont.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/Docx.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/DragTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/DragTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/FileNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/FileNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/JSplashWindowEx.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/WpsMaxiongfeiEditor/UiView/JSplashWindowEx.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/UiView/Docx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UiView/Docx.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UiView/DragTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UiView/DragTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/document/XmlModify.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/document/XmlModify.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -76,17 +32,12 @@
       <file leaf-file-name="Docx.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/UiView/Docx.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="460" column="52" lean-forward="true" selection-start-line="460" selection-start-column="52" selection-end-line="460" selection-end-column="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DragTree.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/UiView/DragTree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="516">
-              <caret line="235" selection-start-line="235" selection-end-line="235" />
+            <state relative-caret-position="194">
+              <caret line="462" column="70" selection-start-line="462" selection-start-column="64" selection-end-line="462" selection-end-column="70" />
+              <folding>
+                <element signature="e#16951#18150#0" expanded="true" />
+                <element signature="e#18149#18150#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -156,9 +107,9 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -292,12 +243,15 @@
       <workItem from="1537971026224" duration="1173000" />
       <workItem from="1537973577518" duration="77000" />
       <workItem from="1537973696932" duration="4667000" />
-      <workItem from="1538012912909" duration="586000" />
+      <workItem from="1538012912909" duration="1462000" />
+      <workItem from="1538038269893" duration="858000" />
+      <workItem from="1538098823371" duration="1043000" />
+      <workItem from="1538099910319" duration="2989000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28900000" />
+    <option name="totallyTimeSpent" value="34666000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="7" />
@@ -317,7 +271,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3293944" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27345416" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27025586" />
       <window_info anchor="right" id="Database" order="3" weight="0.3297587" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -403,6 +357,34 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/UiView/Docx.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10296">
+          <caret line="468" column="21" lean-forward="true" selection-start-line="468" selection-start-column="21" selection-end-line="468" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UiView/DragTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5170">
+          <caret line="235" selection-start-line="235" selection-end-line="235" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UiView/Docx.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10120">
+          <caret line="460" column="52" lean-forward="true" selection-start-line="460" selection-start-column="52" selection-end-line="460" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UiView/DragTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5170">
+          <caret line="235" selection-start-line="235" selection-end-line="235" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/UiView/Docx.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="10186">
@@ -735,15 +717,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/UiView/DragTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="516">
+        <state relative-caret-position="919">
           <caret line="235" selection-start-line="235" selection-end-line="235" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/UiView/Docx.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="460" column="52" lean-forward="true" selection-start-line="460" selection-start-column="52" selection-end-line="460" selection-end-column="52" />
+        <state relative-caret-position="194">
+          <caret line="462" column="70" selection-start-line="462" selection-start-column="64" selection-end-line="462" selection-end-column="70" />
+          <folding>
+            <element signature="e#16951#18150#0" expanded="true" />
+            <element signature="e#18149#18150#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

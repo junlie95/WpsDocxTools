@@ -460,9 +460,39 @@ public class Docx extends JFrame {
                         DefaultMutableTreeNode selectedNode = (DefaultMutableTreeNode) path.getLastPathComponent();
                         if (selectedNode.isLeaf()) {
                             //姑且如此
-                            File file_s = new File(strPath + file_2.getName().substring(0, file_2.getName().lastIndexOf("."))
+                            File file_word = new File(strPath + file_2.getName().substring(0, file_2.getName().lastIndexOf("."))
                                     + "\\word\\" + path.getLastPathComponent().toString());
-                            openIt(file_s);
+                            File file_media = new File(strPath + file_2.getName().substring(0, file_2.getName().lastIndexOf("."))
+                                    + "\\word\\media\\" + path.getLastPathComponent().toString());
+                            File file_theme = new File(strPath + file_2.getName().substring(0, file_2.getName().lastIndexOf("."))
+                                    + "\\word\\theme\\" + path.getLastPathComponent().toString());
+                            File file_Content_Types = new File(strPath + file_2.getName().substring(0, file_2.getName().lastIndexOf("."))
+                                    + "\\" + path.getLastPathComponent().toString());
+                            File file_rels = new File(strPath + file_2.getName().substring(0, file_2.getName().lastIndexOf("."))
+                                    + "\\_rels\\" + path.getLastPathComponent().toString());
+                            File file_docProps = new File(strPath + file_2.getName().substring(0, file_2.getName().lastIndexOf("."))
+                                    + "\\docProps\\" + path.getLastPathComponent().toString());
+                            File file_customXml = new File(strPath + file_2.getName().substring(0, file_2.getName().lastIndexOf("."))
+                                    + "\\customXml\\" + path.getLastPathComponent().toString());
+                            File file_customXml_rels = new File(strPath + file_2.getName().substring(0, file_2.getName().lastIndexOf("."))
+                                    + "\\customXml\\_rels\\" + path.getLastPathComponent().toString());
+                            if (file_word.exists())
+                                openIt(file_word);
+                            if (file_media.exists())
+                                openIt(file_media);
+                            if (file_theme.exists())
+                                openIt(file_theme);
+                            if (file_Content_Types.exists())
+                                openIt(file_Content_Types);
+                            if (file_rels.exists())
+                                openIt(file_rels);
+                            if (file_docProps.exists())
+                                openIt(file_docProps);
+                            if (file_customXml.exists())
+                                openIt(file_customXml);
+                            if (file_customXml_rels.exists())
+                                openIt(file_customXml_rels);
+
                             //XmlOpenFile();
                         }
 
